@@ -228,15 +228,13 @@ h6 {
 }
 /* end of Title */
 
-/* services */
-.services {
+/* information */
+.information {
   padding: 5rem 0;
-}
-.services {
-  background: var(--darkGrey);
   text-align: center;
 }
-.services-center {
+
+.information-center {
   width: 90vw;
   margin: 0 auto;
   display: grid;
@@ -244,32 +242,34 @@ h6 {
   grid-row-gap: 2rem;
   grid-column-gap: 50px;
 }
-.service span {
+.info span {
   display: inline-block;
   color: var(--primaryColor);
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
 }
-.services h6 {
+.information h6 {
   letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
+  font-weight: 900;
 }
-.services p {
+.information p {
   width: 80%;
   margin: 0 auto;
 }
 @media screen and (min-width: 992px) {
-  .services-center {
+  .information-center {
     width: 95vw;
     max-width: 1170px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .services p {
+  .information p {
     width: 100%;
   }
 }
-/*end of services */
+/*end of information */
 /* featured rooms */
 
 .featured-rooms {
