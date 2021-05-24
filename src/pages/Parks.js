@@ -5,7 +5,7 @@ const Parks = () => {
   return (
     <>
       <div>hello</div>
-      <Hero hero="parksHero" />;
+      <Hero hero="parksHero" />
     </>
   );
 };
