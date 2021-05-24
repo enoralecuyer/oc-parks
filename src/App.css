@@ -511,3 +511,9 @@ h6 {
   }
 }
 /* end of rooms fitler*/
+
+/* logo */
+.logo {
+  height: 5rem;
+  width: auto;
+}
