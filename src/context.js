@@ -43,4 +43,14 @@ class ParkProvider extends Component {
 
 const ParkConsumer = ParkContext.Consumer;
 
+export function withParkConsumer(Component) {
+  return function ConsumerWrapper(props) {
+    return (
+      <ParkConsumer>
+        {(value) => <Component {...props} context={value} />}
+      </ParkConsumer>
+    );
+  };
+}
+
 export { ParkProvider, ParkConsumer, ParkContext };
