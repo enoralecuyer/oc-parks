@@ -37,8 +37,8 @@ class ParkProvider extends Component {
 
   formatData(items) {
     let tempItems = items.map((item) => {
-      let id = item.sys.id;
-      let images = item.fields.images.map((image) => image.fields.file.url);
+      let id = item.id;
+      let images = item.fields.images.map((image) => image.url);
       let park = { ...item.fields, images, id };
       return park;
     });

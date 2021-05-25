@@ -17,10 +17,8 @@ import img12 from "./images/room-12.jpeg";
 
 export default [
   {
-    sys: {
-      id: "1",
-    },
     fields: {
+      id: "1",
       name: "single economy",
       slug: "single-economy",
       type: "single",
@@ -43,41 +41,23 @@ export default [
       ],
       images: [
         {
-          fields: {
-            file: {
-              url: img1,
-            },
-          },
+          url: img1,
         },
         {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
+          url: room2,
         },
         {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
+          url: room3,
         },
         {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
+          url: room4,
         },
       ],
     },
   },
   {
-    sys: {
-      id: "2",
-    },
     fields: {
+      id: "2",
       name: "single basic",
       slug: "single-basic",
       type: "single",
@@ -100,41 +80,23 @@ export default [
       ],
       images: [
         {
-          fields: {
-            file: {
-              url: img2,
-            },
-          },
+          url: img2,
         },
         {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
+          url: room2,
         },
         {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
+          url: room3,
         },
         {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
+          url: room4,
         },
       ],
     },
   },
   {
-    sys: {
-      id: "3",
-    },
     fields: {
+      id: "3",
       name: "single standard",
       slug: "single-standard",
       type: "single",
@@ -157,41 +119,23 @@ export default [
       ],
       images: [
         {
-          fields: {
-            file: {
-              url: img3,
-            },
-          },
+          url: img3,
         },
         {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
+          url: room2,
         },
         {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
+          url: room3,
         },
         {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
+          url: room4,
         },
       ],
     },
   },
   {
-    sys: {
-      id: "4",
-    },
     fields: {
+      id: "4",
       name: "single deluxe",
       slug: "single-deluxe",
       type: "single",
@@ -214,41 +158,23 @@ export default [
       ],
       images: [
         {
-          fields: {
-            file: {
-              url: img4,
-            },
-          },
+          url: img4,
         },
         {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
+          url: room2,
         },
         {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
+          url: room3,
         },
         {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
+          url: room4,
         },
       ],
     },
   },
   {
-    sys: {
-      id: "5",
-    },
     fields: {
+      id: "5",
       name: "double economy",
       slug: "double-economy",
       type: "double",
@@ -271,41 +197,23 @@ export default [
       ],
       images: [
         {
-          fields: {
-            file: {
-              url: img5,
-            },
-          },
+          url: img5,
         },
         {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
+          url: room2,
         },
         {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
+          url: room3,
         },
         {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
+          url: room4,
         },
       ],
     },
   },
   {
-    sys: {
-      id: "6",
-    },
     fields: {
+      id: "6",
       name: "double basic",
       slug: "double-basic",
       type: "double",
@@ -328,41 +236,23 @@ export default [
       ],
       images: [
         {
-          fields: {
-            file: {
-              url: img6,
-            },
-          },
+          url: img6,
         },
         {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
+          url: room2,
         },
         {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
+          url: room3,
         },
         {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
+          url: room4,
         },
       ],
     },
   },
   {
-    sys: {
-      id: "7",
-    },
     fields: {
+      id: "7",
       name: "double standard",
       slug: "double-standard",
       type: "double",
@@ -385,41 +275,23 @@ export default [
       ],
       images: [
         {
-          fields: {
-            file: {
-              url: img7,
-            },
-          },
+          url: img7,
         },
         {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
+          url: room2,
         },
         {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
+          url: room3,
         },
         {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
+          url: room4,
         },
       ],
     },
   },
   {
-    sys: {
-      id: "8",
-    },
     fields: {
+      id: "8",
       name: "double deluxe",
       slug: "double-deluxe",
       type: "double",
@@ -442,41 +314,23 @@ export default [
       ],
       images: [
         {
-          fields: {
-            file: {
-              url: img8,
-            },
-          },
+          url: img8,
         },
         {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
+          url: room2,
         },
         {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
+          url: room3,
         },
         {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
+          url: room4,
         },
       ],
     },
   },
   {
-    sys: {
-      id: "9",
-    },
     fields: {
+      id: "9",
       name: "family economy",
       slug: "family-economy",
       type: "family",
@@ -499,41 +353,23 @@ export default [
       ],
       images: [
         {
-          fields: {
-            file: {
-              url: img9,
-            },
-          },
+          url: img9,
         },
         {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
+          url: room2,
         },
         {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
+          url: room3,
         },
         {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
+          url: room4,
         },
       ],
     },
   },
   {
-    sys: {
-      id: "10",
-    },
     fields: {
+      id: "10",
       name: "family basic",
       slug: "family-basic",
       type: "family",
@@ -556,41 +392,23 @@ export default [
       ],
       images: [
         {
-          fields: {
-            file: {
-              url: img10,
-            },
-          },
+          url: img10,
         },
         {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
+          url: room2,
         },
         {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
+          url: room3,
         },
         {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
+          url: room4,
         },
       ],
     },
   },
   {
-    sys: {
-      id: "11",
-    },
     fields: {
+      id: "11",
       name: "family standard",
       slug: "family-standard",
       type: "family",
@@ -613,41 +431,23 @@ export default [
       ],
       images: [
         {
-          fields: {
-            file: {
-              url: img11,
-            },
-          },
+          url: img11,
         },
         {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
+          url: room2,
         },
         {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
+          url: room3,
         },
         {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
+          url: room4,
         },
       ],
     },
   },
   {
-    sys: {
-      id: "12",
-    },
     fields: {
+      id: "12",
       name: "family deluxe",
       slug: "family-deluxe",
       type: "family",
@@ -670,41 +470,23 @@ export default [
       ],
       images: [
         {
-          fields: {
-            file: {
-              url: img12,
-            },
-          },
+          url: img12,
         },
         {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
+          url: room2,
         },
         {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
+          url: room3,
         },
         {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
+          url: room4,
         },
       ],
     },
   },
   {
-    sys: {
-      id: "13",
-    },
     fields: {
+      id: "13",
       name: "presidential",
       slug: "presidential-room",
       type: "presidential",
@@ -727,32 +509,16 @@ export default [
       ],
       images: [
         {
-          fields: {
-            file: {
-              url: room1,
-            },
-          },
+          url: room1,
         },
         {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
+          url: room2,
         },
         {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
+          url: room3,
         },
         {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
+          url: room4,
         },
       ],
     },
