@@ -270,12 +270,12 @@ h6 {
   }
 }
 /*end of information */
-/* featured rooms */
+/* featured parks */
 
-.featured-rooms {
+.featured-parks {
   padding: 5rem 0;
 }
-.featured-rooms-center {
+.featured-parks-center {
   width: 80vw;
   margin: 0 auto;
   display: grid;
@@ -284,24 +284,24 @@ h6 {
   grid-column-gap: 40px;
 }
 @media screen and (min-width: 776px) {
-  .featured-rooms-center {
+  .featured-parks-center {
     width: 90vw;
     grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
   }
 }
 @media screen and (min-width: 992px) {
-  .featured-rooms-center {
+  .featured-parks-center {
     width: 95vw;
     max-width: 1170px;
   }
 }
-/* end pf featured rooms */
-/* room */
-.room {
+/* end pf featured parks */
+/* park */
+.park {
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
 }
-.room:hover {
+.park:hover {
   box-shadow: var(--darkShadow);
 }
 
@@ -331,7 +331,7 @@ h6 {
   font-weight: 300;
   letter-spacing: var(--mainSpacing);
 }
-.room-link {
+.park-link {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -347,10 +347,10 @@ h6 {
 .img-container:hover .price-top {
   opacity: 0;
 }
-.img-container:hover .room-link {
+.img-container:hover .park-link {
   transform: translate(-50%, -50%) scale(1);
 }
-.room-info {
+.park-info {
   background: var(--darkGrey);
   text-transform: capitalize;
   padding: 0.5rem 0;
@@ -358,13 +358,13 @@ h6 {
   font-weight: 700;
   letter-spacing: var(--mainSpacing);
 }
-/* end of room  */
-/* single room*/
+/* end of park  */
+/* single park*/
 
-.single-room {
+.single-park {
   padding: 5rem 0 0 0;
 }
-.single-room-images {
+.single-park-images {
   width: 80vw;
   margin: 0 auto;
   display: grid;
@@ -372,11 +372,11 @@ h6 {
   grid-row-gap: 2rem;
   grid-column-gap: 50px;
 }
-.single-room-images img {
+.single-park-images img {
   width: 100%;
   display: block;
 }
-.single-room-info {
+.single-park-info {
   width: 80vw;
   display: grid;
   grid-template-columns: 1fr;
@@ -402,11 +402,11 @@ h6 {
 .info h6 {
   font-weight: 300;
 }
-.room-extras {
+.park-extras {
   width: 80vw;
   margin: 0 auto 3rem auto;
 }
-.room-extras h6 {
+.park-extras h6 {
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
 }
@@ -418,13 +418,13 @@ h6 {
   grid-row-gap: 1rem;
 }
 @media screen and (min-width: 992px) {
-  .single-room-images,
-  .single-room-info,
-  .room-extras {
+  .single-park-images,
+  .single-park-info,
+  .park-extras {
     width: 95vw;
     max-width: 1170px;
   }
-  .single-room-info {
+  .single-park-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 2rem;
@@ -433,12 +433,12 @@ h6 {
     padding-left: 3rem;
   }
 }
-/* end of single room*/
-/* roomlist */
-.roomslist {
+/* end of single park*/
+/* parklist */
+.parkslist {
   padding: 5rem 0;
 }
-.roomslist-center {
+.parkslist-center {
   width: 80vw;
   margin: 0 auto;
   display: grid;
@@ -448,18 +448,18 @@ h6 {
 }
 
 @media screen and (min-width: 776px) {
-  .roomslist-center {
+  .parkslist-center {
     width: 90vw;
   }
 }
 @media screen and (min-width: 992px) {
-  .roomslist-center {
+  .parkslist-center {
     width: 95vw;
     max-width: 1170px;
   }
 }
-/* end of roomlist */
-/*  rooms fitler*/
+/* end of parklist */
+/*  parks fitler*/
 .filter-container {
   padding: 5rem 0;
 }
@@ -510,7 +510,7 @@ h6 {
     max-width: 1170px;
   }
 }
-/* end of rooms fitler*/
+/* end of parks fitler*/
 
 /* logo */
 .logo {

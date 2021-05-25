@@ -39,14 +39,51 @@ export default class SinglePark extends Component {
       pets,
       images,
     } = park;
+
+    //let's not repeat the main image
+    const [mainImage, ...defaultImage] = images;
     return (
-      <StyledHero image={images[0] || this.state.defaultBackground}>
-        <Banner title={`${name} room`}>
-          <Link to="/rooms" className="btn-primary">
-            Back to Parks
-          </Link>
-        </Banner>
-      </StyledHero>
+      <>
+        <StyledHero image={mainImage || this.state.defaultBackground}>
+          <Banner title={`${name} room`}>
+            <Link to="/parks" className="btn-primary">
+              Back to Parks
+            </Link>
+          </Banner>
+        </StyledHero>
+        <section className="single-park">
+          <div className="single-park-images">
+            {defaultImage.map((item, index) => {
+              return <img key={index} src={item} alt={name} />;
+            })}
+          </div>
+          <div className="single-park-info">
+            <article className="desc">
+              <h3>details</h3>
+              <p>{description}</p>
+            </article>
+            <article className="info">
+              <h3>info</h3>
+              <h6>price: ${price}</h6>
+              <h6>size: ${size} SQFT</h6>
+              <h6>
+                max capacity:
+                {capacity > 1 ? ` ${capacity} people` : ` ${capacity} person`}
+              </h6>
+              <h6>{pets ? "pets allowed" : "no pets allowed"}</h6>
+              <h6>{breakfast && "free breakfast included"}</h6>
+            </article>
+          </div>
+        </section>
+        <section className="park-extras">
+          <h6>extras</h6>
+          <ul className="extras">
+            {extras.map((item, index) => {
+              return <li key={index}>- {item}</li>;
+            })}
+          </ul>
+        </section>
+      </>
     );
   }
 }
