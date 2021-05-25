@@ -74,10 +74,17 @@ class ParkProvider extends Component {
       breakfast,
       pets,
     } = this.state;
-
+    //all the parks
     let tempParks = [...parks];
+    // transform value of capacity from string to number
+    capacity = parseInt(capacity);
+    // filter by type
     if (type !== "all") {
       tempParks = tempParks.filter((park) => park.type === type);
+    }
+    // filter by capacity
+    if (capacity !== 1) {
+      tempParks = tempParks.filter((park) => park.capacity >= capacity);
     }
     this.setState({
       sortedParks: tempParks,

@@ -35,6 +35,14 @@ export default function ParkFilter({ parks }) {
       </option>
     );
   });
+  let people = getUnique(parks, "capacity");
+  people = people.map((item, index) => {
+    return (
+      <option key={index} value={item}>
+        {item}
+      </option>
+    );
+  });
   return (
     <section className="filter-container">
       <Title title="search parks" />
@@ -53,6 +61,20 @@ export default function ParkFilter({ parks }) {
           </select>
         </div>
         {/* end of select type */}
+        {/* capacity */}
+        <div className="form-group">
+          <label htmlFor="capacity">Guests</label>
+          <select
+            name="capacity"
+            id="capacity"
+            value={capacity}
+            className="form-control"
+            onChange={handleChange}
+          >
+            {people}
+          </select>
+        </div>
+        {/* capacity */}
       </form>
     </section>
   );
