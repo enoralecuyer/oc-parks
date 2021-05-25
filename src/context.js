@@ -51,14 +51,37 @@ class ParkProvider extends Component {
   };
 
   handleChange = (event) => {
-    const type = event.target.type;
+    const target = event.target;
+    const value = event.type === "checkbox" ? target.checked : target.value;
     const name = event.target.name;
-    const value = event.target.value;
-    console.log(type, name, value);
+    this.setState(
+      {
+        [name]: value,
+      },
+      this.filterParks
+    );
   };
 
   filterParks = () => {
-    console.log("hello");
+    let {
+      parks,
+      type,
+      capacity,
+      price,
+      size,
+      minSize,
+      mazSize,
+      breakfast,
+      pets,
+    } = this.state;
+
+    let tempParks = [...parks];
+    if (type !== "all") {
+      tempParks = tempParks.filter((park) => park.type === type);
+    }
+    this.setState({
+      sortedParks: tempParks,
+    });
   };
 
   render() {
