@@ -13,11 +13,11 @@ export default function Parks({ park }) {
           <h6>${price}</h6>
           <p>per night</p>
         </div>
-        <Link to={`/parks/${slug}`} className="btn-primary room-link">
+        <Link to={`/parks/${slug}`} className="btn-primary park-link">
           Details
         </Link>
       </div>
-      <p className="room-info">{name}</p>
+      <p className="park-info">{name}</p>
     </article>
   );
 }

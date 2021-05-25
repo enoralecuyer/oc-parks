@@ -45,7 +45,7 @@ export default class SinglePark extends Component {
     return (
       <>
         <StyledHero image={mainImage || this.state.defaultBackground}>
-          <Banner title={`${name} room`}>
+          <Banner title={`${name} park`}>
             <Link to="/parks" className="btn-primary">
               Back to Parks
             </Link>

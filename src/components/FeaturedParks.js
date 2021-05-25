@@ -13,7 +13,7 @@ export default class FeaturedParks extends Component {
     return (
       <section className="featured-parks">
         <Title title="latest parks" />
-        <div className="featured-rooms-center">{parks}</div>
+        <div className="featured-parks-center">{parks}</div>
       </section>
     );
   }
