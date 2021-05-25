@@ -52,7 +52,7 @@ class ParkProvider extends Component {
 
   handleChange = (event) => {
     const target = event.target;
-    const value = event.type === "checkbox" ? target.checked : target.value;
+    const value = target.type === "checkbox" ? target.checked : target.value;
     const name = event.target.name;
     this.setState(
       {
@@ -70,14 +70,16 @@ class ParkProvider extends Component {
       price,
       size,
       minSize,
-      mazSize,
+      maxSize,
       breakfast,
       pets,
     } = this.state;
-    //all the parks
+    // all the parks
     let tempParks = [...parks];
-    // transform value of capacity from string to number
+    // transform value from string to number
     capacity = parseInt(capacity);
+    price = parseInt(price);
+
     // filter by type
     if (type !== "all") {
       tempParks = tempParks.filter((park) => park.type === type);
@@ -86,6 +88,23 @@ class ParkProvider extends Component {
     if (capacity !== 1) {
       tempParks = tempParks.filter((park) => park.capacity >= capacity);
     }
+    // filter by price
+    tempParks = tempParks.filter((park) => park.price <= price);
+
+    // filter by size
+    tempParks = tempParks.filter(
+      (park) => park.size >= minSize && park.size <= maxSize
+    );
+
+    // filter by breakfast
+    if (breakfast) {
+      tempParks = tempParks.filter((park) => park.breakfast === true);
+    }
+    //filter by pets
+    if (pets) {
+      tempParks = tempParks.filter((park) => park.pets === true);
+    }
+    // change state
     this.setState({
       sortedParks: tempParks,
     });
