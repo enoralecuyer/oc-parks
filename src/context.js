@@ -26,10 +26,15 @@ class ParkProvider extends Component {
     });
     return tempItems;
   }
+  getRoom = (slug) => {
+    let tempParks = [...this.state.parks];
+    const park = tempParks.find((park) => park.slug === slug);
+    return park;
+  };
 
   render() {
     return (
-      <ParkContext.Provider value={{ ...this.state }}>
+      <ParkContext.Provider value={{ ...this.state, getPark: this.getPark }}>
         {this.props.children}
       </ParkContext.Provider>
     );
