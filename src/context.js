@@ -26,7 +26,7 @@ class ParkProvider extends Component {
     });
     return tempItems;
   }
-  getRoom = (slug) => {
+  getPark = (slug) => {
     let tempParks = [...this.state.parks];
     const park = tempParks.find((park) => park.slug === slug);
     return park;
