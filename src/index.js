@@ -11,7 +11,6 @@ ReactDOM.render(
       {" "}
       <App />
     </Router>
-    ,
   </ParkProvider>,
   document.getElementById("root")
 );
