@@ -63,7 +63,7 @@ export default function ParkFilter({ parks }) {
       <form className="filter-form">
         {/* select city */}
         <div className="form-group">
-          <label htmlFor="city">city</label>
+          <label htmlFor="city">🌇 city</label>
           <select
             name="city"
             id="city"
@@ -77,7 +77,7 @@ export default function ParkFilter({ parks }) {
         {/* end of select city */}
         {/* select difficulty */}
         <div className="form-group">
-          <label htmlFor="difficulty">difficulty</label>
+          <label htmlFor="difficulty">💦 difficulty</label>
           <select
             name="difficulty"
             id="difficulty"
@@ -91,7 +91,7 @@ export default function ParkFilter({ parks }) {
         {/* end of select difficulty */}
         {/* distance */}
         <div className="form-group">
-          <label htmlFor="distance">distance {distance} miles</label>
+          <label htmlFor="distance">💛 distance {distance} miles</label>
           <input
             type="range"
             name="distance"
@@ -106,7 +106,7 @@ export default function ParkFilter({ parks }) {
         {/* end of distance */}
         {/* time */}
         <div className="form-group">
-          <label htmlFor="time">time {time} min</label>
+          <label htmlFor="time">💜 time {time} min</label>
           <input
             type="range"
             name="time"
@@ -129,7 +129,7 @@ export default function ParkFilter({ parks }) {
               checked={parking}
               onChange={handleChange}
             />
-            <label htmlFor="parking">free parking</label>
+            <label htmlFor="parking">🚘 free parking</label>
           </div>
         </div>
         {/* end of parking */}
@@ -143,7 +143,7 @@ export default function ParkFilter({ parks }) {
               checked={dogs}
               onChange={handleChange}
             />
-            <label htmlFor="dogs">dogs friendly</label>
+            <label htmlFor="dogs">🐾 dogs friendly</label>
           </div>
         </div>
         {/* end of dogs */}
@@ -157,7 +157,7 @@ export default function ParkFilter({ parks }) {
               checked={view}
               onChange={handleChange}
             />
-            <label htmlFor="view">with view</label>
+            <label htmlFor="view">🌊 with view</label>
           </div>
         </div>
         {/* end of view */}
@@ -171,7 +171,7 @@ export default function ParkFilter({ parks }) {
               checked={accessible}
               onChange={handleChange}
             />
-            <label htmlFor="accessible">wheelchair accessible</label>
+            <label htmlFor="accessible">♿ wheelchair accessible</label>
           </div>
         </div>
         {/* end of accessible */}

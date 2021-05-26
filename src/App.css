@@ -114,8 +114,8 @@ h6 {
   padding: 1rem 0;
   color: var(--mainBlack);
   transition: var(--mainTransition);
-  text-align: center;
-  font-size: 1rem;
+  align-self: right;
+  font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: var(--mainSpacing);
 }
@@ -124,7 +124,7 @@ h6 {
 }
 
 .show-nav {
-  height: 100px;
+  height: 100%;
 }
 @media screen and (min-width: 768px) {
   .nav-btn {
@@ -231,7 +231,7 @@ h6 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   grid-row-gap: 2rem;
-  grid-column-gap: 40px;
+  grid-column-gap: 2.5rem;
 }
 @media screen and (min-width: 776px) {
   .featured-parks-center {
@@ -242,7 +242,7 @@ h6 {
 @media screen and (min-width: 992px) {
   .featured-parks-center {
     width: 95vw;
-    max-width: 1170px;
+    max-width: 1600px;
   }
 }
 /* end pf featured parks */
@@ -274,7 +274,7 @@ h6 {
   text-transform: capitalize;
   padding: 0.5rem 0;
   text-align: center;
-  font-weight: 700;
+  font-size: 1.3rem;
 }
 .title-park {
   text-decoration: none;
