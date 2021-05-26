@@ -49,14 +49,6 @@ export default function ParkFilter({ parks }) {
       </option>
     );
   });
-  let people = getUnique(parks, "difficulty");
-  people = people.map((item, index) => {
-    return (
-      <option key={index} value={item}>
-        {item}
-      </option>
-    );
-  });
   return (
     <section className="filter-container">
       <Title title="search parks" />

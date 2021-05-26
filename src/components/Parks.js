@@ -4,7 +4,7 @@ import defaultImage from "../images/mountain1.jpg";
 import PropTypes from "prop-types";
 
 export default function Parks({ park }) {
-  const { name, slug, images, price } = park;
+  const { name, slug, images } = park;
   return (
     <Link to={`/parks/${slug}`} className="title-park">
       <article className="park">
@@ -22,6 +22,5 @@ Parks.propTypes = {
     name: PropTypes.string.isRequired,
     slug: PropTypes.string.isRequired,
     images: PropTypes.arrayOf(PropTypes.string).isRequired,
-    price: PropTypes.number.isRequired,
   }),
 };
