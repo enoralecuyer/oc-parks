@@ -8,7 +8,7 @@ class ParkProvider extends Component {
     parks: [],
     sortedParks: [],
     featuredParks: [],
-    type: "all",
+    city: "all",
     capacity: 1,
     distance: 0,
     minDistance: 0,
@@ -53,7 +53,7 @@ class ParkProvider extends Component {
 
   handleChange = (event) => {
     const target = event.target;
-    const value = target.type === "checkbox" ? target.checked : target.value;
+    const value = target.city === "checkbox" ? target.checked : target.value;
     const name = event.target.name;
     this.setState(
       {
@@ -64,16 +64,16 @@ class ParkProvider extends Component {
   };
 
   filterParks = () => {
-    let { parks, type, capacity, distance, time, breakfast, dogs } = this.state;
+    let { parks, city, capacity, distance, time, breakfast, dogs } = this.state;
     // all the parks
     let tempParks = [...parks];
     // transform value from string to number
     capacity = parseInt(capacity);
     distance = parseInt(distance);
 
-    // filter by type
-    if (type !== "all") {
-      tempParks = tempParks.filter((park) => park.type === type);
+    // filter by city
+    if (city !== "all") {
+      tempParks = tempParks.filter((park) => park.city === city);
     }
     // filter by capacity
     if (capacity !== 1) {

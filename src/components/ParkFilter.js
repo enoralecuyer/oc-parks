@@ -12,7 +12,7 @@ export default function ParkFilter({ parks }) {
   const context = useContext(ParkContext);
   const {
     handleChange,
-    type,
+    city,
     capacity,
     distance,
     minDistance,
@@ -23,12 +23,12 @@ export default function ParkFilter({ parks }) {
     breakfast,
     dogs,
   } = context;
-  // get unique types
-  let types = getUnique(parks, "type");
+  // get unique cities
+  let cities = getUnique(parks, "city");
   // add all
-  types = ["all", ...types];
+  cities = ["all", ...cities];
   // map to jsx
-  types = types.map((item, index) => {
+  cities = cities.map((item, index) => {
     return (
       <option value={item} key={index}>
         {item}
@@ -47,20 +47,20 @@ export default function ParkFilter({ parks }) {
     <section className="filter-container">
       <Title title="search parks" />
       <form className="filter-form">
-        {/* select type */}
+        {/* select city */}
         <div className="form-group">
-          <label htmlFor="type">park type</label>
+          <label htmlFor="city">city</label>
           <select
-            name="type"
-            id="type"
-            value={type}
+            name="city"
+            id="city"
+            value={city}
             className="form-control"
             onChange={handleChange}
           >
-            {types}
+            {cities}
           </select>
         </div>
-        {/* end of select type */}
+        {/* end of select city */}
         {/* capacity */}
         <div className="form-group">
           <label htmlFor="capacity">Guests</label>
