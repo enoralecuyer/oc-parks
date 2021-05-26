@@ -11,7 +11,6 @@
   --mainGrey: #ececec;
   --darkGrey: #cfcfcf;
   --mainTransition: all 0.3s linear;
-  --mainSpacing: 3px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
@@ -227,49 +226,6 @@ h6 {
   background: var(--primaryColor);
 }
 /* end of Title */
-
-/* information */
-.information {
-  padding: 5rem 0;
-  text-align: center;
-}
-
-.information-center {
-  width: 90vw;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
-  grid-row-gap: 2rem;
-  grid-column-gap: 50px;
-}
-.info span {
-  display: inline-block;
-  color: var(--primaryColor);
-  font-size: 2.5rem;
-  margin-bottom: 1.5rem;
-}
-.information h6 {
-  letter-spacing: var(--mainSpacing);
-  text-transform: capitalize;
-  font-weight: 900;
-}
-.information p {
-  width: 80%;
-  margin: 0 auto;
-}
-@media screen and (min-width: 992px) {
-  .information-center {
-    width: 95vw;
-    max-width: 1170px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .information p {
-    width: 100%;
-  }
-}
-/*end of information */
 /* featured parks */
 
 .featured-parks {
@@ -298,13 +254,8 @@ h6 {
 /* end pf featured parks */
 /* park */
 .park {
-  box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
 }
-.park:hover {
-  box-shadow: var(--darkShadow);
-}
-
 .img-container {
   position: relative;
 }
@@ -313,24 +264,6 @@ h6 {
   display: block;
   transition: var(--mainTransition);
 }
-.price-top {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.8);
-  color: var(--mainWhite);
-  padding: 0.3rem 0.6rem 0.5rem;
-  border-bottom-right-radius: 1rem;
-  font-size: 0.5rem;
-  text-align: center;
-  transition: var(--mainTransition);
-}
-.price-top h6 {
-  margin-bottom: 0;
-  font-size: 0.9rem;
-  font-weight: 300;
-  letter-spacing: var(--mainSpacing);
-}
 .park-link {
   position: absolute;
   top: 50%;
@@ -338,26 +271,25 @@ h6 {
   transform: scale(0);
   transition: all 0.3s linear;
 }
-.img-container:hover {
-  background: rgba(0, 0, 0, 0.8);
-}
+
 .img-container:hover img {
   opacity: 0.3;
-}
-.img-container:hover .price-top {
-  opacity: 0;
 }
 .img-container:hover .park-link {
   transform: translate(-50%, -50%) scale(1);
 }
 .park-info {
-  background: var(--darkGrey);
+  background: white;
   text-transform: capitalize;
   padding: 0.5rem 0;
   text-align: center;
   font-weight: 700;
-  letter-spacing: var(--mainSpacing);
 }
+.title-park {
+  text-decoration: none;
+  color: black;
+}
+
 /* end of park  */
 /* single park*/
 
