@@ -350,6 +350,7 @@ h6 {
 .parkslist-center {
   width: 80vw;
   margin: 0 auto;
+  padding: 5rem 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
   grid-row-gap: 2rem;
@@ -401,7 +402,6 @@ h6 {
 }
 .single-extra label {
   display: inline-block;
-  font-size: 0.8rem;
   margin-left: 0.5rem;
 }
 @media screen and (min-width: 776px) {

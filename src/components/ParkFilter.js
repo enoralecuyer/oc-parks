@@ -83,7 +83,7 @@ export default function ParkFilter({ parks }) {
         {/* end of select difficulty */}
         {/* distance */}
         <div className="form-group">
-          <label htmlFor="distance">💛 distance {distance} miles</label>
+          <label htmlFor="distance">💛 distance: {distance} miles</label>
           <input
             type="range"
             name="distance"
@@ -98,7 +98,7 @@ export default function ParkFilter({ parks }) {
         {/* end of distance */}
         {/* time */}
         <div className="form-group">
-          <label htmlFor="time">💜 time {time} min</label>
+          <label htmlFor="time">💜 time: {time} min</label>
           <input
             type="range"
             name="time"
@@ -135,7 +135,7 @@ export default function ParkFilter({ parks }) {
               checked={dogs}
               onChange={handleChange}
             />
-            <label htmlFor="dogs">🐾 dogs friendly</label>
+            <label htmlFor="dogs">🐾 dog friendly</label>
           </div>
         </div>
         {/* end of dogs */}
@@ -163,7 +163,7 @@ export default function ParkFilter({ parks }) {
               checked={accessible}
               onChange={handleChange}
             />
-            <label htmlFor="accessible">♿ wheelchair accessible</label>
+            <label htmlFor="accessible">♿ accessible</label>
           </div>
         </div>
         {/* end of accessible */}
