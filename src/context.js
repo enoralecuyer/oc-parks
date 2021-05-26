@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import items from "./data";
 
 const ParkContext = React.createContext();
-//
+
 class ParkProvider extends Component {
   state = {
     parks: [],
@@ -10,28 +10,29 @@ class ParkProvider extends Component {
     featuredParks: [],
     type: "all",
     capacity: 1,
-    price: 0,
-    minPrice: 0,
-    maxPrice: 0,
-    minSize: 0,
-    maxSize: 0,
+    distance: 0,
+    minDistance: 0,
+    maxDistance: 0,
+    time: 0,
+    minTime: 0,
+    maxTime: 0,
     breakfast: false,
-    pets: false,
+    dogs: false,
   };
-  // getData
 
   componentDidMount() {
     let parks = this.formatData(items);
     let featuredParks = parks.filter((park) => park.featured === true);
-    let maxPrice = Math.max(...parks.map((item) => item.price));
-    let maxSize = Math.max(...parks.map((item) => item.size));
+    let maxDistance = Math.max(...parks.map((item) => item.distance));
+    let maxTime = Math.max(...parks.map((item) => item.time));
     this.setState({
       parks,
       featuredParks,
       sortedParks: parks,
-      price: maxPrice,
-      maxPrice,
-      maxSize,
+      distance: maxDistance,
+      time: maxTime,
+      maxDistance,
+      maxTime,
     });
   }
 
@@ -63,22 +64,12 @@ class ParkProvider extends Component {
   };
 
   filterParks = () => {
-    let {
-      parks,
-      type,
-      capacity,
-      price,
-      size,
-      minSize,
-      maxSize,
-      breakfast,
-      pets,
-    } = this.state;
+    let { parks, type, capacity, distance, time, breakfast, dogs } = this.state;
     // all the parks
     let tempParks = [...parks];
     // transform value from string to number
     capacity = parseInt(capacity);
-    price = parseInt(price);
+    distance = parseInt(distance);
 
     // filter by type
     if (type !== "all") {
@@ -88,21 +79,19 @@ class ParkProvider extends Component {
     if (capacity !== 1) {
       tempParks = tempParks.filter((park) => park.capacity >= capacity);
     }
-    // filter by price
-    tempParks = tempParks.filter((park) => park.price <= price);
+    // filter by distance
+    tempParks = tempParks.filter((park) => park.distance <= distance);
 
-    // filter by size
-    tempParks = tempParks.filter(
-      (park) => park.size >= minSize && park.size <= maxSize
-    );
+    // filter by time
+    tempParks = tempParks.filter((park) => park.time <= time);
 
     // filter by breakfast
     if (breakfast) {
       tempParks = tempParks.filter((park) => park.breakfast === true);
     }
-    //filter by pets
-    if (pets) {
-      tempParks = tempParks.filter((park) => park.pets === true);
+    //filter by dogs
+    if (dogs) {
+      tempParks = tempParks.filter((park) => park.dogs === true);
     }
     // change state
     this.setState({

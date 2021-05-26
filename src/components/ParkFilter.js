@@ -14,14 +14,14 @@ export default function ParkFilter({ parks }) {
     handleChange,
     type,
     capacity,
-    price,
-    minPrice,
-    maxPrice,
-    size,
-    minSize,
-    maxSize,
+    distance,
+    minDistance,
+    maxDistance,
+    time,
+    minTime,
+    maxTime,
     breakfast,
-    pets,
+    dogs,
   } = context;
   // get unique types
   let types = getUnique(parks, "type");
@@ -75,44 +75,36 @@ export default function ParkFilter({ parks }) {
           </select>
         </div>
         {/* capacity */}
-        {/* room price */}
+        {/* distance */}
         <div className="form-group">
-          <label htmlFor="price">room price ${price}</label>
+          <label htmlFor="distance">distance {distance} miles</label>
           <input
             type="range"
-            name="price"
-            min={minPrice}
-            max={maxPrice}
-            id="price"
-            value={price}
+            name="distance"
+            min={minDistance}
+            max={maxDistance}
+            id="distance"
+            value={distance}
             onChange={handleChange}
             className="form-control"
           />
         </div>
-        {/* end of price */}
-        {/* size */}
+        {/* end of distance */}
+        {/* time */}
         <div className="form-group">
-          <label htmlFor="size">room size</label>
-          <div className="size-inputs">
-            <input
-              type="number"
-              name="minSize"
-              id="size"
-              value={minSize}
-              onChange={handleChange}
-              className="size-input"
-            />
-            <input
-              type="number"
-              name="maxSize"
-              id="size"
-              value={maxSize}
-              onChange={handleChange}
-              className="size-input"
-            />
-          </div>
+          <label htmlFor="time">time {time} min</label>
+          <input
+            type="range"
+            name="time"
+            min={minTime}
+            max={maxTime}
+            id="time"
+            value={time}
+            onChange={handleChange}
+            className="form-control"
+          />
         </div>
-        {/* end of size */}
+        {/* end of time */}
         {/* breakfast */}
         <div className="form-group">
           <div className="single-extra">
@@ -127,20 +119,20 @@ export default function ParkFilter({ parks }) {
           </div>
         </div>
         {/* end of breakfast */}
-        {/* pets */}
+        {/* dogs */}
         <div className="form-group">
           <div className="single-extra">
             <input
               type="checkbox"
-              name="pets"
-              id="pets"
-              checked={pets}
+              name="dogs"
+              id="dogs"
+              checked={dogs}
               onChange={handleChange}
             />
-            <label htmlFor="pets">pets</label>
+            <label htmlFor="dogs">dogs</label>
           </div>
         </div>
-        {/* end of pets */}
+        {/* end of dogs */}
       </form>
     </section>
   );

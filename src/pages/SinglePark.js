@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import defaultBackground from "../images/room-1.jpeg";
-import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
 import { ParkContext } from "../context";
@@ -32,11 +31,11 @@ export default class SinglePark extends Component {
       name,
       description,
       capacity,
-      size,
-      price,
+      time,
+      distance,
       extras,
       breakfast,
-      pets,
+      dogs,
       images,
     } = park;
 
@@ -64,13 +63,13 @@ export default class SinglePark extends Component {
             </article>
             <article className="info">
               <h3>info</h3>
-              <h6>price: ${price}</h6>
-              <h6>size: ${size} SQFT</h6>
+              <h6>distance: ${distance}</h6>
+              <h6>time: ${time} SQFT</h6>
               <h6>
                 max capacity:
                 {capacity > 1 ? ` ${capacity} people` : ` ${capacity} person`}
               </h6>
-              <h6>{pets ? "pets allowed" : "no pets allowed"}</h6>
+              <h6>{dogs ? "dogs allowed" : "no dogs allowed"}</h6>
               <h6>{breakfast && "free breakfast included"}</h6>
             </article>
           </div>
