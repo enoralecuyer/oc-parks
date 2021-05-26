@@ -6,10 +6,7 @@
 :root {
   --primaryColor: #af9a7d;
   --mainWhite: #fff;
-  --offWhite: #f7f7f7;
   --mainBlack: #222;
-  --mainGrey: #ececec;
-  --darkGrey: #cfcfcf;
   --mainTransition: all 0.3s linear;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
@@ -68,11 +65,6 @@ h6 {
   background: transparent;
   color: var(--primaryColor);
 }
-.loading {
-  text-transform: capitalize;
-  text-align: center;
-  margin-top: 3rem;
-}
 .error {
   text-align: center;
   text-transform: uppercase;
@@ -93,7 +85,7 @@ h6 {
   left: 0;
   width: 100%;
   padding: 0.75rem 2rem;
-  background: var(--offWhite);
+  background: white;
   z-index: 1;
 }
 .nav-header {
@@ -146,8 +138,10 @@ h6 {
   .nav-links {
     height: auto;
     display: flex;
+    align-self: flex-end;
     margin-left: 4rem;
   }
+
   .nav-links a {
     margin: 0 1rem;
     padding: 0.5rem 0;
@@ -253,16 +247,13 @@ h6 {
 }
 /* end pf featured parks */
 /* park */
-.park {
-  transition: var(--mainTransition);
-}
 .img-container {
   position: relative;
 }
 .img-container img {
   width: 100%;
   display: block;
-  transition: var(--mainTransition);
+  border-radius: 3%;
 }
 .park-link {
   position: absolute;
