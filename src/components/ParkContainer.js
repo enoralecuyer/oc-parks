@@ -14,22 +14,3 @@ function ParkContainer({ context }) {
 }
 
 export default withParkConsumer(ParkContainer);
-
-// export default function ParkContainer() {
-//   return (
-//     <>
-//       <ParkConsumer>
-//         {(value) => {
-//           const { sortedParks, parks } = value;
-//           return (
-//             <div>
-//               hello from parks containers
-//               <ParksFilter parks={parks} />
-//               <ParksList parks={sortedParks} />
-//             </div>
-//           );
-//         }}
-//       </ParkConsumer>
-//     </>
-//   );
-// }

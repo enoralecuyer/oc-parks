@@ -3,7 +3,6 @@ import defaultBackground from "../images/mountain1.jpg";
 import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
 import { ParkContext } from "../context";
-import StyledHero from "../components/StyledHero";
 
 export default class SinglePark extends Component {
   constructor(props) {
@@ -45,13 +44,7 @@ export default class SinglePark extends Component {
     const [mainImage, ...defaultImage] = images;
     return (
       <>
-        <StyledHero image={mainImage || this.state.defaultBackground}>
-          <Banner title={`${name} park`}>
-            <Link to="/parks" className="btn-primary">
-              Back to Parks
-            </Link>
-          </Banner>
-        </StyledHero>
+        <Banner title={`${name} park`}></Banner>
         <section className="single-park">
           <div className="single-park-images">
             {defaultImage.map((item, index) => {
