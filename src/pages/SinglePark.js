@@ -68,14 +68,6 @@ export default class SinglePark extends Component {
             </article>
           </div>
         </section>
-        <section className="park-extras">
-          <h6>extras</h6>
-          <ul className="extras">
-            {extras.map((item, index) => {
-              return <li key={index}>- {item}</li>;
-            })}
-          </ul>
-        </section>
       </>
     );
   }
