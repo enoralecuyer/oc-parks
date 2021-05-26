@@ -13,7 +13,7 @@ export default function ParkFilter({ parks }) {
   const {
     handleChange,
     city,
-    capacity,
+    difficulty,
     distance,
     minDistance,
     maxDistance,
@@ -35,7 +35,19 @@ export default function ParkFilter({ parks }) {
       </option>
     );
   });
-  let people = getUnique(parks, "capacity");
+  // get unique difficulties
+  let difficulties = getUnique(parks, "difficulty");
+  // add all
+  difficulties = ["all", ...difficulties];
+  // map to jsx
+  difficulties = difficulties.map((item, index) => {
+    return (
+      <option value={item} key={index}>
+        {item}
+      </option>
+    );
+  });
+  let people = getUnique(parks, "difficulty");
   people = people.map((item, index) => {
     return (
       <option key={index} value={item}>
@@ -61,20 +73,20 @@ export default function ParkFilter({ parks }) {
           </select>
         </div>
         {/* end of select city */}
-        {/* capacity */}
+        {/* select difficulty */}
         <div className="form-group">
-          <label htmlFor="capacity">Guests</label>
+          <label htmlFor="difficulty">difficulty</label>
           <select
-            name="capacity"
-            id="capacity"
-            value={capacity}
+            name="difficulty"
+            id="difficulty"
+            value={difficulty}
             className="form-control"
             onChange={handleChange}
           >
-            {people}
+            {difficulties}
           </select>
         </div>
-        {/* capacity */}
+        {/* end of select difficulty */}
         {/* distance */}
         <div className="form-group">
           <label htmlFor="distance">distance {distance} miles</label>

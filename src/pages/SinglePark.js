@@ -30,7 +30,7 @@ export default class SinglePark extends Component {
     const {
       name,
       description,
-      capacity,
+      difficulty,
       time,
       distance,
       extras,
@@ -65,10 +65,7 @@ export default class SinglePark extends Component {
               <h3>info</h3>
               <h6>distance: ${distance}</h6>
               <h6>time: ${time} SQFT</h6>
-              <h6>
-                max capacity:
-                {capacity > 1 ? ` ${capacity} people` : ` ${capacity} person`}
-              </h6>
+              <h6>Difficulty</h6>
               <h6>{dogs ? "dogs allowed" : "no dogs allowed"}</h6>
               <h6>{breakfast && "free breakfast included"}</h6>
             </article>

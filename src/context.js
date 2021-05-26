@@ -9,7 +9,7 @@ class ParkProvider extends Component {
     sortedParks: [],
     featuredParks: [],
     city: "all",
-    capacity: 1,
+    difficulty: "all",
     distance: 0,
     minDistance: 0,
     maxDistance: 0,
@@ -64,20 +64,20 @@ class ParkProvider extends Component {
   };
 
   filterParks = () => {
-    let { parks, city, capacity, distance, time, breakfast, dogs } = this.state;
+    let { parks, city, difficulty, distance, time, breakfast, dogs } =
+      this.state;
     // all the parks
     let tempParks = [...parks];
     // transform value from string to number
-    capacity = parseInt(capacity);
     distance = parseInt(distance);
 
     // filter by city
     if (city !== "all") {
       tempParks = tempParks.filter((park) => park.city === city);
     }
-    // filter by capacity
-    if (capacity !== 1) {
-      tempParks = tempParks.filter((park) => park.capacity >= capacity);
+    // filter by difficulty
+    if (difficulty !== "all") {
+      tempParks = tempParks.filter((park) => park.difficulty === difficulty);
     }
     // filter by distance
     tempParks = tempParks.filter((park) => park.distance <= distance);
