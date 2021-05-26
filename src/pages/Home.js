@@ -3,7 +3,6 @@ import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
 import FeaturedParks from "../components/FeaturedParks";
-import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -16,7 +15,6 @@ export default function Home() {
         </Banner>
       </Hero>
       <FeaturedParks />
-      <Footer />
     </>
   );
 }
