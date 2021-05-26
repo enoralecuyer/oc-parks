@@ -52,7 +52,6 @@ h6 {
 .btn-primary {
   display: inline-block;
   text-decoration: none;
-  letter-spacing: var(--mainSpacing);
   color: var(--mainBlack);
   background: var(--primaryColor);
   padding: 0.4rem 0.9rem;
@@ -75,7 +74,6 @@ h6 {
   text-transform: capitalize;
   margin: 2rem 0;
   padding: 1rem;
-  letter-spacing: var(--mainSpacing);
 }
 /* end of globals */
 /* Navbar */
@@ -117,7 +115,6 @@ h6 {
   align-self: right;
   font-size: 1.5rem;
   font-weight: 600;
-  letter-spacing: var(--mainSpacing);
 }
 .nav-links a:hover {
   color: var(--primaryColor);
@@ -170,7 +167,6 @@ h6 {
   padding: 2rem 1rem;
   text-align: center;
   text-transform: capitalize;
-  letter-spacing: var(--mainSpacing);
 }
 .banner h1 {
   font-size: 2.5rem;
@@ -205,11 +201,11 @@ h6 {
 /* Title */
 .section-title {
   text-align: center;
-  margin-bottom: 4rem;
+  padding: 5rem 0;
 }
 .section-title h4 {
   font-size: 2rem;
-  letter-spacing: var(--mainSpacing);
+
   text-transform: capitalize;
   margin-bottom: 1rem;
 }
@@ -221,10 +217,6 @@ h6 {
 }
 /* end of Title */
 /* featured parks */
-
-.featured-parks {
-  padding: 5rem 0;
-}
 .featured-parks-center {
   width: 80vw;
   margin: 0 auto;
@@ -311,7 +303,6 @@ h6 {
 }
 .desc h3 {
   text-transform: capitalize;
-  letter-spacing: var(--mainSpacing);
 }
 .desc p {
   line-height: 1.5;
@@ -319,7 +310,6 @@ h6 {
 .info h3,
 .info h6 {
   text-transform: capitalize;
-  letter-spacing: var(--mainSpacing);
 }
 
 .info h6 {
@@ -331,7 +321,6 @@ h6 {
 }
 .park-extras h6 {
   text-transform: capitalize;
-  letter-spacing: var(--mainSpacing);
 }
 .extras {
   list-style-type: none;
@@ -358,9 +347,6 @@ h6 {
 }
 /* end of single park*/
 /* parklist */
-.parkslist {
-  padding: 5rem 0;
-}
 .parkslist-center {
   width: 80vw;
   margin: 0 auto;
@@ -383,9 +369,6 @@ h6 {
 }
 /* end of parklist */
 /*  parks fitler*/
-.filter-container {
-  padding: 5rem 0;
-}
 .filter-form {
   width: 60vw;
   margin: 0 auto;
@@ -399,7 +382,6 @@ h6 {
 }
 .form-group label {
   display: block;
-  letter-spacing: var(--mainSpacing);
   margin-bottom: 0.5rem;
 }
 .form-control {
@@ -440,10 +422,12 @@ h6 {
   height: 2.5rem;
   width: auto;
 }
+/* end of logo */
 
 /* Footer */
 .footer {
   display: flex;
   justify-content: center;
-  padding: 2rem 2rem;
+  padding: 5rem 0;
 }
+/* end of footer */

@@ -50,7 +50,7 @@ export default function ParkFilter({ parks }) {
     );
   });
   return (
-    <section className="filter-container">
+    <section>
       <Title title="search parks" />
       <form className="filter-form">
         {/* select city */}

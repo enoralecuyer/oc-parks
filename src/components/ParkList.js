@@ -10,7 +10,7 @@ export default function ParkList({ parks }) {
     );
   }
   return (
-    <section className="parkslist">
+    <section>
       <div className="parkslist-center">
         {parks.map((item) => {
           return <Parks key={item.id} park={item} />;

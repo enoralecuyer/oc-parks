@@ -1,13 +1,10 @@
 import React from "react";
-import Hero from "../components/Hero";
-import Banner from "../components/Banner";
+import Title from "../components/Title";
 
 export default function Home() {
   return (
     <>
-      <Hero>
-        <Banner title="About"></Banner>
-      </Hero>
+      <Title title="about" />
     </>
   );
 }

@@ -7,13 +7,6 @@ import FeaturedParks from "../components/FeaturedParks";
 export default function Home() {
   return (
     <>
-      <Hero>
-        <Banner title="my favorite parks" subtitle="in orange county">
-          <Link to="/parks" className="btn-primary">
-            Discover
-          </Link>
-        </Banner>
-      </Hero>
       <FeaturedParks />
     </>
   );

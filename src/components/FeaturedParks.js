@@ -11,7 +11,7 @@ export default class FeaturedParks extends Component {
       return <Parks key={park.id} park={park} />;
     });
     return (
-      <section className="featured-parks">
+      <section>
         <Title title="latest parks" />
         <div className="featured-parks-center">{parks}</div>
       </section>

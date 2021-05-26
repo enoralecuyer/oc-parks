@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import defaultBackground from "../images/mountain1.jpg";
-import Banner from "../components/Banner";
+import Title from "../components/Title";
 import { Link } from "react-router-dom";
 import { ParkContext } from "../context";
 
@@ -44,7 +44,7 @@ export default class SinglePark extends Component {
     const [mainImage, ...defaultImage] = images;
     return (
       <>
-        <Banner title={`${name} park`}></Banner>
+        <Title title={`${name} park`}></Title>
         <section className="single-park">
           <div className="single-park-images">
             {defaultImage.map((item, index) => {
