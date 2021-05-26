@@ -16,8 +16,10 @@ class ParkProvider extends Component {
     time: 0,
     minTime: 0,
     maxTime: 0,
-    breakfast: false,
+    parking: false,
     dogs: false,
+    view: false,
+    accessible: false,
   };
 
   componentDidMount() {
@@ -64,8 +66,17 @@ class ParkProvider extends Component {
   };
 
   filterParks = () => {
-    let { parks, city, difficulty, distance, time, breakfast, dogs } =
-      this.state;
+    let {
+      parks,
+      city,
+      difficulty,
+      distance,
+      time,
+      parking,
+      dogs,
+      view,
+      accessible,
+    } = this.state;
     // all the parks
     let tempParks = [...parks];
     // transform value from string to number
@@ -85,13 +96,21 @@ class ParkProvider extends Component {
     // filter by time
     tempParks = tempParks.filter((park) => park.time <= time);
 
-    // filter by breakfast
-    if (breakfast) {
-      tempParks = tempParks.filter((park) => park.breakfast === true);
+    // filter by parking
+    if (parking) {
+      tempParks = tempParks.filter((park) => park.parking === true);
     }
     //filter by dogs
     if (dogs) {
       tempParks = tempParks.filter((park) => park.dogs === true);
+    }
+    //filter by view
+    if (view) {
+      tempParks = tempParks.filter((park) => park.view === true);
+    }
+    //filter by accessibility
+    if (accessible) {
+      tempParks = tempParks.filter((park) => park.accessible === true);
     }
     // change state
     this.setState({

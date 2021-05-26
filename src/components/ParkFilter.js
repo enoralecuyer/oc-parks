@@ -20,8 +20,10 @@ export default function ParkFilter({ parks }) {
     time,
     minTime,
     maxTime,
-    breakfast,
+    parking,
     dogs,
+    view,
+    accessible,
   } = context;
   // get unique cities
   let cities = getUnique(parks, "city");
@@ -117,20 +119,20 @@ export default function ParkFilter({ parks }) {
           />
         </div>
         {/* end of time */}
-        {/* breakfast */}
+        {/* parking */}
         <div className="form-group">
           <div className="single-extra">
             <input
               type="checkbox"
-              name="breakfast"
-              id="breakfast"
-              checked={breakfast}
+              name="parking"
+              id="parking"
+              checked={parking}
               onChange={handleChange}
             />
-            <label htmlFor="breakfast">breakfast</label>
+            <label htmlFor="parking">free parking</label>
           </div>
         </div>
-        {/* end of breakfast */}
+        {/* end of parking */}
         {/* dogs */}
         <div className="form-group">
           <div className="single-extra">
@@ -145,6 +147,34 @@ export default function ParkFilter({ parks }) {
           </div>
         </div>
         {/* end of dogs */}
+        {/* view */}
+        <div className="form-group">
+          <div className="single-extra">
+            <input
+              type="checkbox"
+              name="view"
+              id="view"
+              checked={view}
+              onChange={handleChange}
+            />
+            <label htmlFor="view">with view</label>
+          </div>
+        </div>
+        {/* end of view */}
+        {/* accessible */}
+        <div className="form-group">
+          <div className="single-extra">
+            <input
+              type="checkbox"
+              name="accessible"
+              id="accessible"
+              checked={accessible}
+              onChange={handleChange}
+            />
+            <label htmlFor="accessible">wheelchair accessible</label>
+          </div>
+        </div>
+        {/* end of accessible */}
       </form>
     </section>
   );

@@ -34,8 +34,10 @@ export default class SinglePark extends Component {
       time,
       distance,
       extras,
-      breakfast,
+      parking,
       dogs,
+      view,
+      accessible,
       images,
     } = park;
 
@@ -63,11 +65,13 @@ export default class SinglePark extends Component {
             </article>
             <article className="info">
               <h3>info</h3>
-              <h6>distance: ${distance}</h6>
-              <h6>time: ${time} SQFT</h6>
-              <h6>Difficulty</h6>
+              <h6>distance: {distance} miles</h6>
+              <h6>time: {time} min</h6>
+              <h6>Difficulty: {difficulty}</h6>
               <h6>{dogs ? "dogs allowed" : "no dogs allowed"}</h6>
-              <h6>{breakfast && "free breakfast included"}</h6>
+              <h6>{parking && "free parking"}</h6>
+              <h6>{view && "with view"}</h6>
+              <h6>{accessible && "wheelchair accessible"}</h6>
             </article>
           </div>
         </section>
