@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import defaultBackground from "../images/room-1.jpeg";
+import defaultBackground from "../images/mountain1.jpg";
 import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
 import { ParkContext } from "../context";

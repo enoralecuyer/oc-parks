@@ -2,7 +2,6 @@ import React from "react";
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
-import Information from "../components/Information";
 import FeaturedParks from "../components/FeaturedParks";
 
 export default function Home() {
@@ -15,7 +14,6 @@ export default function Home() {
           </Link>
         </Banner>
       </Hero>
-      <Information />
       <FeaturedParks />
     </>
   );

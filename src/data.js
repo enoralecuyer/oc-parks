@@ -1,26 +1,23 @@
-import room1 from "./images/details-1.jpeg";
-import room2 from "./images/details-2.jpeg";
-import room3 from "./images/details-3.jpeg";
-import room4 from "./images/details-4.jpeg";
-import img1 from "./images/room-1.jpeg";
-import img2 from "./images/room-2.jpeg";
-import img3 from "./images/room-3.jpeg";
-import img4 from "./images/room-4.jpeg";
-import img5 from "./images/room-5.jpeg";
-import img6 from "./images/room-6.jpeg";
-import img7 from "./images/room-7.jpeg";
-import img8 from "./images/room-8.jpeg";
-import img9 from "./images/room-9.jpeg";
-import img10 from "./images/room-10.jpeg";
-import img11 from "./images/room-11.jpeg";
-import img12 from "./images/room-12.jpeg";
+import mountain1 from "./images/mountain1.jpg";
+import mountain2 from "./images/mountain2.jpg";
+import mountain3 from "./images/mountain3.jpg";
+import mountain4 from "./images/mountain4.jpg";
+import mountain5 from "./images/mountain5.jpg";
+import mountain6 from "./images/mountain6.jpg";
+import mountain7 from "./images/mountain7.jpg";
+import mountain8 from "./images/mountain8.jpg";
+import mountain9 from "./images/mountain9.jpg";
+import mountain10 from "./images/mountain10.jpg";
+import mountain11 from "./images/mountain11.jpg";
+import mountain12 from "./images/mountain12.jpg";
+import mountain13 from "./images/mountain13.jpg";
 
 export default [
   {
     fields: {
       id: "1",
-      name: "single economy",
-      slug: "single-economy",
+      name: "Yosemite",
+      slug: "Yosemite",
       city: "Aliso Viejo",
       distance: 100,
       time: 200,
@@ -43,16 +40,16 @@ export default [
       ],
       images: [
         {
-          url: img1,
+          url: mountain1,
         },
         {
-          url: room2,
+          url: mountain2,
         },
         {
-          url: room3,
+          url: mountain3,
         },
         {
-          url: room4,
+          url: mountain4,
         },
       ],
     },
@@ -60,8 +57,8 @@ export default [
   {
     fields: {
       id: "2",
-      name: "single basic",
-      slug: "single-basic",
+      name: "Yellowstone",
+      slug: "Yellowstone",
       city: "Mission Viejo",
       distance: 150,
       time: 250,
@@ -84,16 +81,16 @@ export default [
       ],
       images: [
         {
-          url: img2,
+          url: mountain2,
         },
         {
-          url: room2,
+          url: mountain2,
         },
         {
-          url: room3,
+          url: mountain3,
         },
         {
-          url: room4,
+          url: mountain4,
         },
       ],
     },
@@ -101,8 +98,8 @@ export default [
   {
     fields: {
       id: "3",
-      name: "single standard",
-      slug: "single-standard",
+      name: "Sunny Park",
+      slug: "Sunny Park",
       city: "Irvine",
       distance: 250,
       time: 300,
@@ -125,16 +122,16 @@ export default [
       ],
       images: [
         {
-          url: img3,
+          url: mountain3,
         },
         {
-          url: room2,
+          url: mountain2,
         },
         {
-          url: room3,
+          url: mountain3,
         },
         {
-          url: room4,
+          url: mountain4,
         },
       ],
     },
@@ -142,8 +139,8 @@ export default [
   {
     fields: {
       id: "4",
-      name: "single deluxe",
-      slug: "single-deluxe",
+      name: "Sunny Park",
+      slug: "Sunny Park",
       city: "Laguna Beach",
       distance: 300,
       time: 400,
@@ -166,16 +163,16 @@ export default [
       ],
       images: [
         {
-          url: img4,
+          url: mountain4,
         },
         {
-          url: room2,
+          url: mountain2,
         },
         {
-          url: room3,
+          url: mountain3,
         },
         {
-          url: room4,
+          url: mountain4,
         },
       ],
     },
@@ -183,8 +180,8 @@ export default [
   {
     fields: {
       id: "5",
-      name: "double economy",
-      slug: "double-economy",
+      name: "Sunny Park",
+      slug: "Sunny Park",
       city: "Laguna Niguel",
       distance: 200,
       time: 300,
@@ -207,16 +204,16 @@ export default [
       ],
       images: [
         {
-          url: img5,
+          url: mountain5,
         },
         {
-          url: room2,
+          url: mountain2,
         },
         {
-          url: room3,
+          url: mountain3,
         },
         {
-          url: room4,
+          url: mountain4,
         },
       ],
     },
@@ -224,8 +221,8 @@ export default [
   {
     fields: {
       id: "6",
-      name: "double basic",
-      slug: "double-basic",
+      name: "Sunny Park",
+      slug: "Sunny Park",
       city: "Los Angeles",
       distance: 250,
       time: 350,
@@ -248,16 +245,16 @@ export default [
       ],
       images: [
         {
-          url: img6,
+          url: mountain6,
         },
         {
-          url: room2,
+          url: mountain2,
         },
         {
-          url: room3,
+          url: mountain3,
         },
         {
-          url: room4,
+          url: mountain4,
         },
       ],
     },
@@ -265,8 +262,8 @@ export default [
   {
     fields: {
       id: "7",
-      name: "double standard",
-      slug: "double-standard",
+      name: "Sunny Park",
+      slug: "Sunny Park",
       city: "Malibu",
       distance: 300,
       time: 400,
@@ -289,16 +286,16 @@ export default [
       ],
       images: [
         {
-          url: img7,
+          url: mountain7,
         },
         {
-          url: room2,
+          url: mountain2,
         },
         {
-          url: room3,
+          url: mountain3,
         },
         {
-          url: room4,
+          url: mountain4,
         },
       ],
     },
@@ -306,8 +303,8 @@ export default [
   {
     fields: {
       id: "8",
-      name: "double deluxe",
-      slug: "double-deluxe",
+      name: "Sunny Park",
+      slug: "Sunny Park",
       city: "Aliso Viejo",
       distance: 400,
       time: 500,
@@ -330,16 +327,16 @@ export default [
       ],
       images: [
         {
-          url: img8,
+          url: mountain8,
         },
         {
-          url: room2,
+          url: mountain2,
         },
         {
-          url: room3,
+          url: mountain3,
         },
         {
-          url: room4,
+          url: mountain4,
         },
       ],
     },
@@ -347,8 +344,8 @@ export default [
   {
     fields: {
       id: "9",
-      name: "family economy",
-      slug: "family-economy",
+      name: "Sunny Park",
+      slug: "Sunny Park",
       city: "Thousands Oaks",
       distance: 300,
       time: 500,
@@ -371,16 +368,16 @@ export default [
       ],
       images: [
         {
-          url: img9,
+          url: mountain9,
         },
         {
-          url: room2,
+          url: mountain2,
         },
         {
-          url: room3,
+          url: mountain3,
         },
         {
-          url: room4,
+          url: mountain4,
         },
       ],
     },
@@ -388,8 +385,8 @@ export default [
   {
     fields: {
       id: "10",
-      name: "family basic",
-      slug: "family-basic",
+      name: "Sunny Park",
+      slug: "Sunny Park",
       city: "Mission Viejo",
       distance: 350,
       time: 550,
@@ -412,16 +409,16 @@ export default [
       ],
       images: [
         {
-          url: img10,
+          url: mountain10,
         },
         {
-          url: room2,
+          url: mountain2,
         },
         {
-          url: room3,
+          url: mountain3,
         },
         {
-          url: room4,
+          url: mountain4,
         },
       ],
     },
@@ -429,8 +426,8 @@ export default [
   {
     fields: {
       id: "11",
-      name: "family standard",
-      slug: "family-standard",
+      name: "Sunny Park",
+      slug: "Sunny Park",
       city: "Lake Forest",
       distance: 400,
       time: 600,
@@ -453,16 +450,16 @@ export default [
       ],
       images: [
         {
-          url: img11,
+          url: mountain11,
         },
         {
-          url: room2,
+          url: mountain2,
         },
         {
-          url: room3,
+          url: mountain3,
         },
         {
-          url: room4,
+          url: mountain4,
         },
       ],
     },
@@ -470,8 +467,8 @@ export default [
   {
     fields: {
       id: "12",
-      name: "family deluxe",
-      slug: "family-deluxe",
+      name: "Sunny Park",
+      slug: "Sunny Park",
       city: "Dana Point",
       distance: 500,
       time: 700,
@@ -494,16 +491,16 @@ export default [
       ],
       images: [
         {
-          url: img12,
+          url: mountain12,
         },
         {
-          url: room2,
+          url: mountain2,
         },
         {
-          url: room3,
+          url: mountain3,
         },
         {
-          url: room4,
+          url: mountain4,
         },
       ],
     },
@@ -511,8 +508,8 @@ export default [
   {
     fields: {
       id: "13",
-      name: "presidential",
-      slug: "presidential-room",
+      name: "Sunny Park",
+      slug: "Sunny Park",
       city: "Coto de Caza",
       distance: 600,
       time: 1000,
@@ -535,16 +532,16 @@ export default [
       ],
       images: [
         {
-          url: room1,
+          url: mountain13,
         },
         {
-          url: room2,
+          url: mountain2,
         },
         {
-          url: room3,
+          url: mountain3,
         },
         {
-          url: room4,
+          url: mountain4,
         },
       ],
     },
