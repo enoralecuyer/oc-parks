@@ -440,3 +440,10 @@ h6 {
   height: 2.5rem;
   width: auto;
 }
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 2rem;
+}
