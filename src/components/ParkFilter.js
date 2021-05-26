@@ -129,7 +129,7 @@ export default function ParkFilter({ parks }) {
               checked={dogs}
               onChange={handleChange}
             />
-            <label htmlFor="dogs">dogs</label>
+            <label htmlFor="dogs">dogs friendly</label>
           </div>
         </div>
         {/* end of dogs */}
