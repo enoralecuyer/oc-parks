@@ -53,16 +53,16 @@ h6 {
   display: inline-block;
   text-decoration: none;
   color: var(--mainBlack);
-  background: var(--primaryColor);
   padding: 0.4rem 0.9rem;
   border: 3px solid var(--primaryColor);
   transition: var(--mainTransition);
   text-transform: uppercase;
   cursor: pointer;
+  border-radius: 0.3rem;
 }
 .btn-primary:hover {
-  background: transparent;
-  color: var(--primaryColor);
+  color: var(--mainBlack);
+  background-color: #af9a7d;
 }
 .error {
   text-align: center;
@@ -152,7 +152,6 @@ h6 {
 }
 .section-title h4 {
   font-size: 2rem;
-
   text-transform: capitalize;
   margin-bottom: 1rem;
 }
@@ -163,6 +162,53 @@ h6 {
   background: var(--primaryColor);
 }
 /* end of Title */
+/* intro */
+.intro {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  padding: 5rem 5rem 1rem 5rem;
+}
+.intro-button {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  padding: 0rem 5rem;
+}
+
+/* animated orange emoji*/
+span.wave {
+  animation-name: wave-animation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-4deg);
+  }
+  20% {
+    transform: rotate(6deg);
+  }
+  30% {
+    transform: rotate(-4deg);
+  }
+  40% {
+    transform: rotate(4deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+}
+/* end of animated leaf */
+/* end of intro */
 /* featured parks */
 .featured-parks-center {
   width: 80vw;

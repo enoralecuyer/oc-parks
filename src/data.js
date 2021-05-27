@@ -80,8 +80,8 @@ export default [
   {
     fields: {
       id: "3",
-      name: "Sunny Park",
-      slug: "Sunny Park",
+      name: "Sunny Hike",
+      slug: "Sunny Hike",
       city: "Dana Point",
       distance: 250,
       time: 300,
@@ -112,8 +112,8 @@ export default [
   {
     fields: {
       id: "4",
-      name: "Sunny Park",
-      slug: "Sunny Park",
+      name: "Sunny Hike",
+      slug: "Sunny Hike",
       city: "Irvine",
       distance: 300,
       time: 400,
@@ -144,8 +144,8 @@ export default [
   {
     fields: {
       id: "5",
-      name: "Sunny Park",
-      slug: "Sunny Park",
+      name: "Sunny Hike",
+      slug: "Sunny Hike",
       city: "Laguna Beach",
       distance: 200,
       time: 300,
@@ -176,8 +176,8 @@ export default [
   {
     fields: {
       id: "6",
-      name: "Sunny Park",
-      slug: "Sunny Park",
+      name: "Sunny Hike",
+      slug: "Sunny Hike",
       city: "Laguna Niguel",
       distance: 250,
       time: 350,
@@ -208,8 +208,8 @@ export default [
   {
     fields: {
       id: "7",
-      name: "Sunny Park",
-      slug: "Sunny Park",
+      name: "Sunny Hike",
+      slug: "Sunny Hike",
       city: "Lake Forest",
       distance: 300,
       time: 400,
@@ -240,8 +240,8 @@ export default [
   {
     fields: {
       id: "8",
-      name: "Sunny Park",
-      slug: "Sunny Park",
+      name: "Sunny Hike",
+      slug: "Sunny Hike",
       city: "Los Angeles",
       distance: 400,
       time: 500,
@@ -272,8 +272,8 @@ export default [
   {
     fields: {
       id: "9",
-      name: "Sunny Park",
-      slug: "Sunny Park",
+      name: "Sunny Hike",
+      slug: "Sunny Hike",
       city: "Malibu",
       distance: 300,
       time: 500,
@@ -304,8 +304,8 @@ export default [
   {
     fields: {
       id: "10",
-      name: "Sunny Park",
-      slug: "Sunny Park",
+      name: "Sunny Hike",
+      slug: "Sunny Hike",
       city: "Mission Viejo",
       distance: 350,
       time: 550,
@@ -336,8 +336,8 @@ export default [
   {
     fields: {
       id: "11",
-      name: "Sunny Park",
-      slug: "Sunny Park",
+      name: "Sunny Hike",
+      slug: "Sunny Hike",
       city: "Thousands Oaks",
       distance: 400,
       time: 600,
@@ -368,8 +368,8 @@ export default [
   {
     fields: {
       id: "12",
-      name: "Sunny Park",
-      slug: "Sunny Park",
+      name: "Sunny Hike",
+      slug: "Sunny Hike",
       city: "Aliso Viejo",
       distance: 500,
       time: 700,
@@ -400,8 +400,8 @@ export default [
   {
     fields: {
       id: "13",
-      name: "Sunny Park",
-      slug: "Sunny Park",
+      name: "Sunny Hike",
+      slug: "Sunny Hike",
       city: "Lake Forest",
       distance: 600,
       time: 1000,

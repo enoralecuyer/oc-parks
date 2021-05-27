@@ -51,7 +51,7 @@ export default function ParkFilter({ parks }) {
   });
   return (
     <section>
-      <Title title="search parks" />
+      <Title title="search all parks" />
       <form className="filter-form">
         {/* select city */}
         <div className="form-group">
