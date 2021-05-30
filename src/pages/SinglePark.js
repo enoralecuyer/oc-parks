@@ -3,6 +3,7 @@ import defaultBackground from "../images/mountain1.jpg";
 import Title from "../components/Title";
 import { Link } from "react-router-dom";
 import { ParkContext } from "../context";
+import Map from '../components/Map'
 
 export default class SinglePark extends Component {
   constructor(props) {
@@ -77,6 +78,7 @@ export default class SinglePark extends Component {
             <p>{access}</p>
           </div> */}
         </section>
+        <Map />
       </>
     );
   }
