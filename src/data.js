@@ -203,6 +203,12 @@ import saltcorridor7 from './images/salt_corridor/saltcorridor7.jpg'
 import saltcorridor8 from './images/salt_corridor/saltcorridor8.jpg'
 import playadelreybeach1 from './images/playa_del_rey_beach/playadelreybeach1.jpg'
 import playadelreybeach2 from './images/playa_del_rey_beach/playadelreybeach2.jpg'
+import playadelreybeach3 from './images/playa_del_rey_beach/playadelreybeach3.jpg'
+import playadelreybeach4 from './images/playa_del_rey_beach/playadelreybeach4.jpg'
+import playadelreybeach5 from './images/playa_del_rey_beach/playadelreybeach5.jpg'
+import playadelreybeach6 from './images/playa_del_rey_beach/playadelreybeach6.jpg'
+import playadelreybeach7 from './images/playa_del_rey_beach/playadelreybeach7.jpg'
+import playadelreybeach8 from './images/playa_del_rey_beach/playadelreybeach8.jpg'
 import bluffcovetrail1 from './images/bluff_cove/bluffcovetrail1.jpg'
 import bluffcovetrail2 from './images/bluff_cove/bluffcovetrail2.jpg'
 import bluffcovetrail3 from './images/bluff_cove/bluffcovetrail3.jpg'
@@ -216,6 +222,7 @@ import jetpet1 from './images/jet_pet/jetpet1.jpg'
 import jetpet2 from './images/jet_pet/jetpet2.jpg'
 import jetpet3 from './images/jet_pet/jetpet3.jpg'
 import jetpet4 from './images/jet_pet/jetpet4.jpg'
+import jetpet5 from './images/jet_pet/jetpet5.jpg'
 import waterview1 from './images/waterview_trail/waterview1.jpg'
 import waterview2 from './images/waterview_trail/waterview2.jpg'
 import waterview3 from './images/waterview_trail/waterview3.jpg'
@@ -224,6 +231,21 @@ import waterview5 from './images/waterview_trail/waterview5.jpg'
 import ballonadiscovery1 from './images/ballona_discovery/ballonadiscovery1.jpg'
 import ballonadiscovery2 from './images/ballona_discovery/ballonadiscovery2.jpg'
 import ballonadiscovery3 from './images/ballona_discovery/ballonadiscovery3.jpg'
+import ballonadiscovery4 from './images/ballona_discovery/ballonadiscovery4.jpg'
+import bluffcreektrail1 from './images/bluff_creek_trail/bluffcreektrail1.jpg'
+import bluffcreektrail2 from './images/bluff_creek_trail/bluffcreektrail2.jpg'
+import bluffcreektrail3 from './images/bluff_creek_trail/bluffcreektrail3.jpg'
+import bluffcreektrail4 from './images/bluff_creek_trail/bluffcreektrail4.jpg'
+import bluffcreektrail5 from './images/bluff_creek_trail/bluffcreektrail5.jpg'
+import bluffcreektrail6 from './images/bluff_creek_trail/bluffcreektrail6.jpg'
+import bluffcreektrail7 from './images/bluff_creek_trail/bluffcreektrail7.jpg'
+import bluffcreektrail8 from './images/bluff_creek_trail/bluffcreektrail8.jpg'
+import bluffcreektrail9 from './images/bluff_creek_trail/bluffcreektrail9.jpg'
+import bluffcreektrail10 from './images/bluff_creek_trail/bluffcreektrail10.jpg'
+import bluffcreektrail11 from './images/bluff_creek_trail/bluffcreektrail11.jpg'
+import manhattanbeach1 from './images/manhattan_beach/manhattanbeach1.jpg'
+import manhattanbeach2 from './images/manhattan_beach/manhattanbeach2.jpg'
+import manhattanbeach3 from './images/manhattan_beach/manhattanbeach3.jpg'
 
 
 export default [
@@ -342,7 +364,7 @@ export default [
       parking: true,
       view: false,
       accessible: true,
-      featured: true,
+      featured: false,
       description:
         "Small hike with goats and guard dogs.",
       impression:
@@ -780,7 +802,7 @@ export default [
       parking: true,
       view: false,
       accessible: true,
-      featured: true,
+      featured: false,
       description:
         "Tiny neighborhood park with view of the hills.",
       impression:
@@ -1559,6 +1581,24 @@ export default [
         {
           url: playadelreybeach2,
         },
+        {
+          url: playadelreybeach3,
+        },
+        {
+          url: playadelreybeach4,
+        },
+        {
+          url: playadelreybeach5,
+        },
+        {
+          url: playadelreybeach6,
+        },
+        {
+          url: playadelreybeach7,
+        },
+        {
+          url: playadelreybeach8,
+        },
       ],
     },
   },
@@ -1670,6 +1710,9 @@ export default [
         {
           url: jetpet4,
         },
+        {
+          url: jetpet5,
+        },
       ],
     },
   },
@@ -1741,6 +1784,99 @@ export default [
         },
         {
           url: ballonadiscovery2,
+        },
+        {
+          url: ballonadiscovery4,
+        },
+      ],
+    },
+  },
+  {
+    fields: {
+      id: "36",
+      name: "Bluff Creek Trail",
+      slug: "bluff-creek-trail",
+      city: "Playa Vista",
+      distance: 8,
+      time: 90,
+      difficulty: "easy",
+      dogs: true,
+      parking: true,
+      view: false,
+      accessible: true,
+      featured: false,
+      description:
+        "Walk along patches of yellow flowers.",
+      impression:
+        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      access:
+        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      images: [
+        {
+          url: bluffcreektrail1,
+        },
+        {
+          url: bluffcreektrail2,
+        },
+        {
+          url: bluffcreektrail3,
+        },
+        {
+          url: bluffcreektrail4,
+        },
+        {
+          url: bluffcreektrail5,
+        },
+        {
+          url: bluffcreektrail6,
+        },
+        {
+          url: bluffcreektrail7,
+        },
+        {
+          url: bluffcreektrail8,
+        },
+        {
+          url: bluffcreektrail9,
+        },
+        {
+          url: bluffcreektrail10,
+        },
+        {
+          url: bluffcreektrail11,
+        },
+      ],
+    },
+  },
+  {
+    fields: {
+      id: "37",
+      name: "Manhattan Beach Trail",
+      slug: "manhattan-beach-trail",
+      city: "Manhattan Beach",
+      distance: 8,
+      time: 90,
+      difficulty: "easy",
+      dogs: true,
+      parking: true,
+      view: true,
+      accessible: true,
+      featured: false,
+      description:
+        "Lovely walk along the beach.",
+      impression:
+        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      access:
+        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      images: [
+        {
+          url: manhattanbeach1,
+        },
+        {
+          url: manhattanbeach2,
+        },
+        {
+          url: manhattanbeach3,
         },
       ],
     },
