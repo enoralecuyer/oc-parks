@@ -20,6 +20,7 @@ import laRamblas6 from './images/las_ramblas/las_ramblas_6.jpg'
 import laRamblas7 from './images/las_ramblas/las_ramblas_7.jpg'
 import hillview1 from './images/hillview/hillview1.jpg'
 import hillview2 from './images/hillview/hillview2.jpg'
+import hillview3 from './images/hillview/hillview3.jpg'
 import lahermosa1 from './images/la_hermosa/lahermosa1.jpg'
 import fiestaisland1 from './images/fiesta_island/fiestaisland1.jpg'
 // import fiestaisland2 from './images/fiesta_island/fiestaisland2.jpg'
@@ -45,9 +46,58 @@ import northlake7 from './images/north_lake/northlake7.jpg'
 import laderaridge1 from './images/ladera_ridge/laderaridge1.jpg'
 import laderaridge2 from './images/ladera_ridge/laderaridge2.jpg'
 import laderaridge3 from './images/ladera_ridge/laderaridge3.jpg'
-import laderaridge4 from './images/ladera_ridge/laderaridge4.jpg'
+// import laderaridge4 from './images/ladera_ridge/laderaridge4.jpg'
 import laderaridge5 from './images/ladera_ridge/laderaridge5.jpg'
-
+import westridge1 from './images/west_ridge/westridge1.jpg'
+import westridge2 from './images/west_ridge/westridge2.jpg'
+import westridge3 from './images/west_ridge/westridge3.jpg'
+import westridge4 from './images/west_ridge/westridge4.jpg'
+import westridge5 from './images/west_ridge/westridge5.jpg'
+import westridge6 from './images/west_ridge/westridge6.jpg'
+import westridge7 from './images/west_ridge/westridge7.jpg'
+import westridge8 from './images/west_ridge/westridge8.jpg'
+import westridge9 from './images/west_ridge/westridge9.jpg'
+import westridge10 from './images/west_ridge/westridge10.jpg'
+import westridge11 from './images/west_ridge/westridge11.jpg'
+import westridge12 from './images/west_ridge/westridge12.jpg'
+import westridge13 from './images/west_ridge/westridge13.jpg'
+import westridge14 from './images/west_ridge/westridge14.jpg'
+import westridge15 from './images/west_ridge/westridge15.jpg'
+import westridge16 from './images/west_ridge/westridge16.jpg'
+import blufftrail1 from './images/bluff_trail/blufftrail1.jpg'
+import blufftrail2 from './images/bluff_trail/blufftrail2.jpg'
+import blufftrail3 from './images/bluff_trail/blufftrail3.jpg'
+import blufftrail4 from './images/bluff_trail/blufftrail4.jpg'
+import blufftrail5 from './images/bluff_trail/blufftrail5.jpg'
+import blufftrail6 from './images/bluff_trail/blufftrail6.jpg'
+import blufftrail7 from './images/bluff_trail/blufftrail7.jpg'
+import blufftrail8 from './images/bluff_trail/blufftrail8.jpg'
+import blufftrail9 from './images/bluff_trail/blufftrail9.jpg'
+import blufftrail10 from './images/bluff_trail/blufftrail10.jpg'
+import blufftrail11 from './images/bluff_trail/blufftrail11.jpg'
+import ridgeview1 from './images/ridge_view/ridgeview1.jpg'
+import ridgeview2 from './images/ridge_view/ridgeview2.jpg'
+import ridgeview3 from './images/ridge_view/ridgeview3.jpg'
+import saltcreek1 from './images/salt_creek/saltcreek1.jpg'
+import saltcreek2 from './images/salt_creek/saltcreek2.jpg'
+import saltcreek3 from './images/salt_creek/saltcreek3.jpg'
+// import saltcreek4 from './images/salt_creek/saltcreek4.jpg'
+import saltcreek5 from './images/salt_creek/saltcreek5.jpg'
+import saltcreek6 from './images/salt_creek/saltcreek6.jpg'
+import saltcreek7 from './images/salt_creek/saltcreek7.jpg'
+// import saltcreek8 from './images/salt_creek/saltcreek8.jpg'
+import saltcreek9 from './images/salt_creek/saltcreek9.jpg'
+import elconejo1 from './images/el_conejo/elconejo1.jpg'
+import elconejo2 from './images/el_conejo/elconejo2.jpg'
+import elconejo3 from './images/el_conejo/elconejo3.jpg'
+import elconejo4 from './images/el_conejo/elconejo4.jpg'
+import elconejo5 from './images/el_conejo/elconejo5.jpg'
+import elconejo6 from './images/el_conejo/elconejo6.jpg'
+import elconejo7 from './images/el_conejo/elconejo7.jpg'
+import elconejo8 from './images/el_conejo/elconejo8.jpg'
+import elconejo9 from './images/el_conejo/elconejo9.jpg'
+import mendocino1 from './images/mendocino/mendocino1.jpg'
+import mendocino2 from './images/mendocino/mendocino2.jpg'
 
 
 export default [
@@ -122,6 +172,9 @@ export default [
         },
         {
           url: hillview2,
+        },
+        {
+          url: hillview3,
         },
       ],
     },
@@ -366,9 +419,9 @@ export default [
         {
           url: laderaridge3,
         },
-        {
-          url: laderaridge4,
-        },
+        // {
+        //   url: laderaridge4,
+        // },
         {
           url: laderaridge5,
         },
@@ -378,35 +431,71 @@ export default [
   {
     fields: {
       id: "10",
-      name: "Sunny Hike",
-      slug: "Sunny Hike",
-      city: "Mission Viejo",
-      distance: 350,
-      time: 550,
-      difficulty: "easy",
-      dogs: false,
-      parking: false,
+      name: "West Ridge",
+      slug: "west-ridge",
+      city: "Aliso Viejo",
+      distance: 10,
+      time: 190,
+      difficulty: "medium",
+      dogs: true,
+      parking: true,
       view: false,
-      accessible: false,
+      accessible: true,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Hike is partially accessible to dog and to wheelchairs. Great view of hills and hike along a river",
       impression:
         "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
       access:
         "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
       images: [
         {
-          url: mountain10,
+          url: westridge1,
         },
         {
-          url: mountain2,
+          url: westridge2,
         },
         {
-          url: mountain3,
+          url: westridge3,
         },
         {
-          url: mountain4,
+          url: westridge4,
+        },
+        {
+          url: westridge5,
+        },
+        {
+          url: westridge6,
+        },
+        {
+          url: westridge7,
+        },
+        {
+          url: westridge8,
+        },
+        {
+          url: westridge9,
+        },
+        {
+          url: westridge10,
+        },
+        {
+          url: westridge11,
+        },
+        {
+          url: westridge12,
+        },
+        {
+          url: westridge13,
+        },
+        {
+          url: westridge14,
+        },
+        {
+          url: westridge15,
+        },
+        {
+          url: westridge16,
         },
       ],
     },
@@ -414,35 +503,56 @@ export default [
   {
     fields: {
       id: "11",
-      name: "Sunny Hike",
-      slug: "Sunny Hike",
-      city: "Thousands Oaks",
-      distance: 400,
-      time: 600,
+      name: "Bluff Trail",
+      slug: "bluff-trail",
+      city: "Laguna Niguel",
+      distance: 8,
+      time: 120,
       difficulty: "medium",
       dogs: true,
-      parking: false,
+      parking: true,
       view: false,
       accessible: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Hike with view of the mountains, partially shaded.",
       impression:
         "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
       access:
         "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
       images: [
         {
-          url: mountain11,
+          url: blufftrail1,
         },
         {
-          url: mountain2,
+          url: blufftrail2,
         },
         {
-          url: mountain3,
+          url: blufftrail3,
         },
         {
-          url: mountain4,
+          url: blufftrail4,
+        },
+        {
+          url: blufftrail5,
+        },
+        {
+          url: blufftrail6,
+        },
+        {
+          url: blufftrail7,
+        },
+        {
+          url: blufftrail8,
+        },
+        {
+          url: blufftrail9,
+        },
+        {
+          url: blufftrail10,
+        },
+        {
+          url: blufftrail11,
         },
       ],
     },
@@ -450,35 +560,32 @@ export default [
   {
     fields: {
       id: "12",
-      name: "Sunny Hike",
-      slug: "Sunny Hike",
-      city: "Aliso Viejo",
-      distance: 500,
-      time: 700,
-      difficulty: "hard",
+      name: "Ridge View Park",
+      slug: "ridge-view-park",
+      city: "Laguna Niguel",
+      distance: 0.5,
+      time: 10,
+      difficulty: "easy",
       dogs: true,
       parking: true,
       view: false,
-      accessible: false,
+      accessible: true,
       featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Tiny neighborhood park with view of the hills.",
       impression:
         "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
       access:
         "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
       images: [
         {
-          url: mountain12,
+          url: ridgeview1,
         },
         {
-          url: mountain2,
+          url: ridgeview2,
         },
         {
-          url: mountain3,
-        },
-        {
-          url: mountain4,
+          url: ridgeview3,
         },
       ],
     },
@@ -486,37 +593,134 @@ export default [
   {
     fields: {
       id: "13",
-      name: "Sunny Hike",
-      slug: "Sunny Hike",
-      city: "Lake Forest",
-      distance: 600,
-      time: 1000,
+      name: "Salt Creek Trail",
+      slug: "salt-creek-trail",
+      city: "Laguna Niguel",
+      distance: 6,
+      time: 50,
       difficulty: "easy",
       dogs: true,
       parking: true,
       view: false,
-      accessible: false,
+      accessible: true,
       featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Trail between a dog park and a park with playground for kids.",
       impression:
         "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
       access:
         "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
       images: [
         {
-          url: mountain13,
+          url: saltcreek6,
         },
         {
-          url: mountain2,
+          url: saltcreek2,
         },
         {
-          url: mountain3,
+          url: saltcreek3,
+        },
+        // {
+        //   url: saltcreek4,
+        // },
+        {
+          url: saltcreek5,
         },
         {
-          url: mountain4,
+          url: saltcreek1,
+        },
+        {
+          url: saltcreek7,
+        },
+        // {
+        //   url: saltcreek8,
+        // },
+        {
+          url: saltcreek9,
+        },
+      ],
+    },
+  },
+  {
+    fields: {
+      id: "14",
+      name: "El Conejo Park",
+      slug: "el-conejo-park",
+      city: "Laguna Hills",
+      distance: 6,
+      time: 90,
+      difficulty: "easy",
+      dogs: true,
+      parking: true,
+      view: false,
+      accessible: true,
+      featured: false,
+      description:
+        "Beautiful rolling hills.",
+      impression:
+        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      access:
+        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      images: [
+        {
+          url: elconejo1,
+        },
+        {
+          url: elconejo2,
+        },
+        {
+          url: elconejo3,
+        },
+        {
+          url: elconejo4,
+        },
+        {
+          url: elconejo5,
+        },
+        {
+          url: elconejo6,
+        },
+        {
+          url: elconejo7,
+        },
+        {
+          url: elconejo8,
+        },
+        {
+          url: elconejo9,
+        },
+      ],
+    },
+  },
+  {
+    fields: {
+      id: "15",
+      name: "Mendocino Park",
+      slug: "mendocino-park",
+      city: "Laguna Hills",
+      distance: 1,
+      time: 10,
+      difficulty: "easy",
+      dogs: true,
+      parking: true,
+      view: false,
+      accessible: true,
+      featured: false,
+      description:
+        "Tiny park next to the rolling hills",
+      impression:
+        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      access:
+        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      images: [
+        {
+          url: mendocino1,
+        },
+        {
+          url: mendocino2,
         },
       ],
     },
   },
 ];
+// jan 12
