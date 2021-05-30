@@ -32,11 +32,12 @@ export default class SinglePark extends Component {
       difficulty,
       time,
       distance,
-      extras,
       parking,
       dogs,
       view,
       accessible,
+      impression,
+      access,
       images,
     } = park;
 
@@ -67,12 +68,14 @@ export default class SinglePark extends Component {
               <h6>{accessible && "wheelchair accessible"}</h6>
             </article>
           </div>
-          <div className="single-park-info">
+          {/* <div className="single-park-info">
             <h3>My impressions</h3>
+            <p>{impression}</p>
           </div>
           <div className="single-park-info">
-            <h3>How to access the park</h3>
-          </div>
+            <h3>Access to the park</h3>
+            <p>{access}</p>
+          </div> */}
         </section>
       </>
     );
