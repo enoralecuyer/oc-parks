@@ -5,17 +5,13 @@
 }
 :root {
   --primaryColor: #af9a7d;
-  --mainWhite: #fff;
   --mainBlack: #222;
   --mainTransition: all 0.3s linear;
-  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
-  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
 /* globals */
 body {
   padding-top: 66px;
   color: var(--mainBlack);
-  background: var(--mainWhite);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.4;
 }
@@ -103,7 +99,6 @@ h6 {
 .nav-links {
   height: 0;
   overflow: hidden;
-  transition: var(--mainTransition);
   list-style-type: none;
 }
 .nav-links a {
@@ -111,7 +106,6 @@ h6 {
   text-decoration: none;
   padding: 1rem 0;
   color: var(--mainBlack);
-  transition: var(--mainTransition);
   align-self: right;
   font-size: 1.5rem;
   font-weight: 600;
@@ -421,6 +415,6 @@ span.wave {
 .footer {
   display: flex;
   justify-content: center;
-  padding: 5rem 0;
+  padding: 5rem 2rem;
 }
 /* end of footer */
