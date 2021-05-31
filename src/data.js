@@ -745,7 +745,7 @@ export default [
       city: "Laguna Beach",
       distance: 6,
       time: 60,
-      difficulty: "medium",
+      difficulty: "hard",
       dogs: true,
       parking: true,
       view: true,
