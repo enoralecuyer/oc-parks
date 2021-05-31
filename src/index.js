@@ -4,10 +4,13 @@ import { BrowserRouter as Router } from "react-router-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ParkProvider } from "./context";
+import ScrollToTop from './components/ScrollToTop'
+
 
 ReactDOM.render(
   <ParkProvider>
     <Router>
+      <ScrollToTop/>
       {" "}
       <App />
     </Router>
