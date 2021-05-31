@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import defaultImage from "../images/mountain1.jpg";
+import defaultImage from "../images/aliso_park/alisopark1.jpg";
 import PropTypes from "prop-types";
 
 export default function Parks({ park }) {

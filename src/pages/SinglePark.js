@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import defaultBackground from "../images/mountain1.jpg";
+import defaultBackground from "../images/aliso_park/alisopark1.jpg";
 import Title from "../components/Title";
 import { Link } from "react-router-dom";
 import { ParkContext } from "../context";
@@ -37,8 +37,6 @@ export default class SinglePark extends Component {
       dogs,
       view,
       accessible,
-      impression,
-      access,
       images,
     } = park;
 
@@ -69,14 +67,6 @@ export default class SinglePark extends Component {
               <h6>{accessible && "wheelchair accessible"}</h6>
             </article>
           </div>
-          {/* <div className="single-park-info">
-            <h3>My impressions</h3>
-            <p>{impression}</p>
-          </div>
-          <div className="single-park-info">
-            <h3>Access to the park</h3>
-            <p>{access}</p>
-          </div> */}
         </section>
         <Map />
       </>
