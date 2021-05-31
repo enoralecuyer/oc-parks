@@ -39,15 +39,12 @@ export default class SinglePark extends Component {
       accessible,
       images,
     } = park;
-
-    //let's not repeat the main image
-    const [mainImage, ...defaultImage] = images;
     return (
       <>
         <Title title={`${name} park`}></Title>
         <section className="single-park">
           <div className="single-park-images">
-            {defaultImage.map((item, index) => {
+            {images.map((item, index) => {
               return <img key={index} src={item} alt={name} />;
             })}
           </div>
