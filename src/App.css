@@ -113,7 +113,6 @@ h6 {
 .nav-links a:hover {
   color: var(--primaryColor);
 }
-
 .show-nav {
   height: 100%;
 }
@@ -241,7 +240,6 @@ span.wave {
   transform: scale(0);
   transition: all 0.3s linear;
 }
-
 .img-container:hover img {
   opacity: 0.3;
 }
@@ -259,10 +257,8 @@ span.wave {
   text-decoration: none;
   color: black;
 }
-
 /* end of park  */
 /* single park*/
-
 .single-park {
   padding: 5rem 0 0 0;
 }
@@ -298,7 +294,6 @@ span.wave {
 .info h6 {
   text-transform: capitalize;
 }
-
 .info h6 {
   font-weight: 300;
 }

@@ -246,10 +246,12 @@ import manhattanbeach3 from './images/manhattan_beach/manhattanbeach3.jpg'
 export default [
   {
     fields: {
-      id: "6",
+      id: "1",
       name: "Aliso Creek Trail",
       slug: "aliso-creek-trail",
       city: "Aliso Viejo",
+      latitude: 33.559003, 
+      longitude: -117.718811,
       distance: 15,
       time: 120,
       difficulty: "easy",
@@ -296,10 +298,12 @@ export default [
   },
   {
     fields: {
-      id: "23",
+      id: "2",
       name: "Crestview Park",
       slug: "crestview-park",
       city: "Aliso Viejo",
+      latitude: 33.58642272789054, 
+      longitude: -117.71690309646394,
       distance: 3,
       time: 30,
       difficulty: "easy",
@@ -340,10 +344,12 @@ export default [
   },
   {
     fields: {
-      id: "28",
+      id: "3",
       name: "Grand Park",
       slug: "grand-park",
       city: "Aliso Viejo",
+      latitude: 33.57507870120275,
+      longitude: -117.72711277752259,
       distance: 1,
       time: 10,
       difficulty: "easy",
@@ -378,10 +384,12 @@ export default [
   },
   {
     fields: {
-      id: "2",
+      id: "4",
       name: "Hillview Park",
       slug: "hillview-park",
       city: "Aliso Viejo",
+      latitude: 33.5583700143935,
+      longitude: -117.71965377296756,
       distance: 1,
       time: 20,
       difficulty: "easy",
@@ -431,10 +439,12 @@ export default [
   },
   {
     fields: {
-      id: "10",
+      id: "5",
       name: "West Ridge",
       slug: "west-ridge",
       city: "Aliso Viejo",
+      latitude: 33.58392039149947,
+      longitude: -117.74975830180301,
       distance: 10,
       time: 190,
       difficulty: "medium",
@@ -502,10 +512,12 @@ export default [
   },
   {
     fields: {
-      id: "16",
+      id: "6",
       name: "Wingspan Park",
       slug: "wingpsan-park",
       city: "Aliso Viejo",
+      latitude: 33.595942602904245,
+      longitude: -117.73569375329951,
       distance: 3,
       time: 40,
       difficulty: "easy",
@@ -555,10 +567,12 @@ export default [
   },
   {
     fields: {
-      id: "8",
+      id: "7",
       name: "North Lake Park",
       slug: "north-lake",
       city: "Irvine",
+      latitude: 33.68176832165894,
+      longitude: -117.78996153697048,
       distance: 6,
       time: 45,
       difficulty: "easy",
@@ -596,10 +610,12 @@ export default [
   },
   {
     fields: {
-      id: "18",
+      id: "8",
       name: "Serano Creek Trail",
       slug: "serano-creek-trail",
       city: "Irvine",
+      latitude: 33.648576880558124,
+      longitude: -117.6979486864586,
       distance: 8,
       time: 90,
       difficulty: "easy",
@@ -622,10 +638,12 @@ export default [
   },
   {
     fields: {
-      id: "21",
+      id: "9",
       name: "Turtle Rock Trail",
       slug: "turtle-rock-trail",
       city: "Irvine",
+      latitude: 33.65595057620039,
+      longitude: -117.82238540626415,
       distance: 8,
       time: 80,
       difficulty: "easy",
@@ -657,10 +675,12 @@ export default [
   },
   {
     fields: {
-      id: "9",
+      id: "10",
       name: "Ladera Ridge",
       slug: "ladera-ridge",
       city: "Ladera Ranch",
+      latitude: 33.56741673235626,
+      longitude: -117.62826768367368,
       distance: 2,
       time: 20,
       difficulty: "easy",
@@ -689,10 +709,12 @@ export default [
   },
   {
     fields: {
-      id: "27",
+      id: "11",
       name: "Aliso Beach",
       slug: "aliso-beach",
       city: "Laguna Beach",
+      latitude: 33.50999590033445,
+      longitude: -117.75256088246695,
       distance: 8,
       time: 120,
       difficulty: "easy",
@@ -739,10 +761,12 @@ export default [
   },
   {
     fields: {
-      id: "24",
+      id: "12",
       name: "Valido Trail",
       slug: "valido-trail",
       city: "Laguna Beach",
+      latitude: 33.50599650875544,
+      longitude: -117.74328569136793,
       distance: 6,
       time: 60,
       difficulty: "hard",
@@ -765,10 +789,12 @@ export default [
   },
   {
     fields: {
-      id: "5",
+      id: "13",
       name: "Briosa Park",
       slug: "briosa-park",
       city: "Laguna Hills",
+      latitude: 33.576396776428126,
+      longitude: -117.70318152980381,
       distance: 2,
       time: 20,
       difficulty: "easy",
@@ -810,6 +836,8 @@ export default [
       name: "El Conejo Park",
       slug: "el-conejo-park",
       city: "Laguna Hills",
+      latitude: 33.59065060466619,
+      longitude: -117.68970745678008,
       distance: 6,
       time: 90,
       difficulty: "easy",
@@ -857,6 +885,8 @@ export default [
       name: "Mendocino Park",
       slug: "mendocino-park",
       city: "Laguna Hills",
+      latitude: 33.5870744637822,
+      longitude: -117.69640599393834,
       distance: 1,
       time: 10,
       difficulty: "easy",
@@ -879,10 +909,12 @@ export default [
   },
   {
     fields: {
-      id: "26",
+      id: "16",
       name: "Aliso Summit Trail",
       slug: "aliso-summit-trail",
       city: "Laguna Niguel",
+      latitude: 33.537571668425464,
+      longitude: -117.72330098688971,
       distance: 6,
       time: 60,
       difficulty: "medium",
@@ -905,10 +937,12 @@ export default [
   },
   {
     fields: {
-      id: "7",
+      id: "17",
       name: "Badlands Park",
       slug: "badlands-park",
       city: "Laguna Niguel",
+      latitude: 33.5031177828465,
+      longitude: -117.73214643601875,
       distance: 1,
       time: 20,
       difficulty: "easy",
@@ -943,10 +977,12 @@ export default [
   },
   {
     fields: {
-      id: "11",
+      id: "18",
       name: "Bluff Trail",
       slug: "bluff-trail",
       city: "Laguna Niguel",
+      latitude: 33.52978856466446,
+      longitude: -117.68338512161051,
       distance: 8,
       time: 120,
       difficulty: "medium",
@@ -996,10 +1032,12 @@ export default [
   },
   {
     fields: {
-      id: "3",
+      id: "19",
       name: "La Hermosa",
       slug: "la-hermosa",
       city: "Laguna Niguel",
+      latitude: 33.52840691691983,
+      longitude: -117.70159193927387,
       distance: 3,
       time: 40,
       difficulty: "easy",
@@ -1034,10 +1072,12 @@ export default [
   },
   {
     fields: {
-      id: "12",
+      id: "20",
       name: "Ridge View Park",
       slug: "ridge-view-park",
       city: "Laguna Niguel",
+      latitude: 33.54196944242694,
+      longitude: -117.72244277042842,
       distance: 0.5,
       time: 10,
       difficulty: "easy",
@@ -1063,10 +1103,12 @@ export default [
   },
   {
     fields: {
-      id: "29",
+      id: "21",
       name: "Salt Corridor Regional Park",
       slug: "salt-corridor-regional-park",
       city: "Laguna Niguel",
+      latitude: 33.50044080545569,
+      longitude: -117.71314790558617,
       distance: 15,
       time: 190,
       difficulty: "easy",
@@ -1104,10 +1146,12 @@ export default [
   },
   {
     fields: {
-      id: "13",
+      id: "22",
       name: "Salt Creek Trail",
       slug: "salt-creek-trail",
       city: "Laguna Niguel",
+      latitude: 33.50659999087714,
+      longitude: -117.68613855511268,
       distance: 6,
       time: 50,
       difficulty: "easy",
@@ -1145,10 +1189,12 @@ export default [
   },
   {
     fields: {
-      id: "25",
+      id: "23",
       name: "Seaview Park",
       slug: "seaview-park",
       city: "Laguna Niguel",
+      latitude: 33.513260315116604,
+      longitude: -117.73208581943241,
       distance: 3,
       time: 30,
       difficulty: "easy",
@@ -1186,10 +1232,12 @@ export default [
   },
   {
     fields: {
-      id: "37",
+      id: "24",
       name: "Manhattan Beach Trail",
       slug: "manhattan-beach-trail",
       city: "Manhattan Beach",
+      latitude: 33.893752034253865,
+      longitude: -118.41685696931053,
       distance: 8,
       time: 90,
       difficulty: "easy",
@@ -1215,10 +1263,12 @@ export default [
   },
   {
     fields: {
-      id: "20",
+      id: "25",
       name: "Aliso Park",
       slug: "aliso-park",
       city: "Mission Viejo",
+      latitude: 33.641703662028675,
+      longitude: -117.67305338731383,
       distance: 8,
       time: 60,
       difficulty: "easy",
@@ -1256,10 +1306,12 @@ export default [
   },
   {
     fields: {
-      id: "19",
+      id: "26",
       name: "Wilderness Glen Park",
       slug: "wilderness-glen-park",
       city: "Mission Viejo",
+      latitude: 33.636157574001665,
+      longitude: -117.66290707128552,
       distance: 8,
       time: 90,
       difficulty: "easy",
@@ -1294,10 +1346,12 @@ export default [
   },
   {
     fields: {
-      id: "31",
+      id: "27",
       name: "Bluff Cove Trail",
       slug: "bluff-cove-trail",
       city: "Palos Verdes",
+      latitude: 33.795772522738424,
+      longitude: -118.40711837605221,
       distance: 4,
       time: 30,
       difficulty: "easy",
@@ -1329,7 +1383,7 @@ export default [
   },
   {
     fields: {
-      id: "32",
+      id: "28",
       name: "Point Vicente",
       slug: "point-vicente",
       city: "Palos Verdes",
@@ -1361,7 +1415,7 @@ export default [
   },
   {
     fields: {
-      id: "33",
+      id: "29",
       name: "Jet Pets Park",
       slug: "jet-pets-park",
       city: "Playa del Rey",
@@ -1440,7 +1494,7 @@ export default [
   },
   {
     fields: {
-      id: "34",
+      id: "31",
       name: "Waterview Trail",
       slug: "waterview-trail",
       city: "Playa del Rey",
@@ -1475,7 +1529,7 @@ export default [
   },
   {
     fields: {
-      id: "35",
+      id: "32",
       name: "Ballona Discovery Park",
       slug: "ballona-discovery-park",
       city: "Playa Vista",
@@ -1507,7 +1561,7 @@ export default [
   },
   {
     fields: {
-      id: "36",
+      id: "33",
       name: "Bluff Creek Trail",
       slug: "bluff-creek-trail",
       city: "Playa Vista",
@@ -1560,7 +1614,7 @@ export default [
   },
   {
     fields: {
-      id: "17",
+      id: "34",
       name: "Oak Tree Park",
       slug: "oak-tree-park",
       city: "Rancho Santa Margarita",
@@ -1595,7 +1649,7 @@ export default [
   },
   {
     fields: {
-      id: "22",
+      id: "35",
       name: "San Clemente Pedestrian Beach Trail",
       slug: "san-clemente-pedestrian-beach-trail",
       city: "San Clemente",
@@ -1642,7 +1696,7 @@ export default [
   },
   {
     fields: {
-      id: "4",
+      id: "36",
       name: "Fiesta Island",
       slug: "fiesta-island",
       city: "San Diego",
@@ -1674,7 +1728,7 @@ export default [
   },
   {
     fields: {
-      id: "1",
+      id: "37",
       name: "Las Ramblas",
       slug: "las-ramblas",
       city: "San Juan Capistrano",

@@ -41,7 +41,7 @@ export default class SinglePark extends Component {
     } = park;
     return (
       <>
-        <Title title={`${name} park`}></Title>
+        <Title title={`${name}`}></Title>
         <section className="single-park">
           <div className="single-park-images">
             {images.map((item, index) => {
