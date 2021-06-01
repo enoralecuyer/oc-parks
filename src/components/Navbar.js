@@ -33,9 +33,6 @@ export default class Navbar extends Component {
               <Link to="/parks">🌄 All Parks</Link>
             </li>
             <li>
-              <Link to="/blog">🌱 Blog</Link>
-            </li>
-            <li>
               <Link to="/about">😊 About</Link>
             </li>
           </ul>

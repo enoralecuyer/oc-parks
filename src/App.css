@@ -60,17 +60,6 @@ h6 {
   color: var(--mainBlack);
   background-color: #af9a7d;
 }
-.error {
-  text-align: center;
-  text-transform: uppercase;
-  margin: 2rem 0;
-}
-.empty-search {
-  text-align: center;
-  text-transform: capitalize;
-  margin: 2rem 0;
-  padding: 1rem;
-}
 /* end of globals */
 /* Navbar */
 .navbar {
@@ -168,7 +157,7 @@ h6 {
   justify-content: center;
   padding: 0rem 5rem;
 }
-
+/* end of intro */
 /* animated orange emoji*/
 span.wave {
   animation-name: wave-animation;
@@ -201,7 +190,6 @@ span.wave {
   }
 }
 /* end of animated leaf */
-/* end of intro */
 /* featured parks */
 .featured-parks-center {
   width: 80vw;
@@ -233,22 +221,10 @@ span.wave {
   display: block;
   border-radius: 3%;
 }
-.park-link {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: scale(0);
-  transition: all 0.3s linear;
-}
 .img-container:hover img {
   opacity: 0.3;
 }
-.img-container:hover .park-link {
-  transform: translate(-50%, -50%) scale(1);
-}
 .park-info {
-  background: white;
-  text-transform: capitalize;
   padding: 0.5rem 0;
   text-align: center;
   font-size: 1.3rem;
@@ -280,36 +256,15 @@ span.wave {
   grid-template-columns: 1fr;
   margin: 2rem auto;
 }
-.desc,
+.description,
 .info {
   margin: 1rem 0;
 }
-.desc h3 {
-  text-transform: capitalize;
-}
-.desc p {
+.description p {
   line-height: 1.5;
-}
-.info h3,
-.info h6 {
-  text-transform: capitalize;
 }
 .info h6 {
   font-weight: 300;
-}
-.park-extras {
-  width: 80vw;
-  margin: 0 auto 3rem auto;
-}
-.park-extras h6 {
-  text-transform: capitalize;
-}
-.extras {
-  list-style-type: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
-  grid-column-gap: 2rem;
-  grid-row-gap: 1rem;
 }
 @media screen and (min-width: 992px) {
   .single-park-images,
@@ -351,7 +306,7 @@ span.wave {
   }
 }
 /* end of parklist */
-/*  parks fitler*/
+/*  parks filter*/
 .filter-form {
   width: 60vw;
   margin: 0 auto;
@@ -398,14 +353,12 @@ span.wave {
   }
 }
 /* end of parks fitler*/
-
 /* logo */
 .logo {
   height: 2.5rem;
   width: auto;
 }
 /* end of logo */
-
 /* Footer */
 .footer {
   display: flex;

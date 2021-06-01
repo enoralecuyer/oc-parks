@@ -49,19 +49,19 @@ export default class SinglePark extends Component {
             })}
           </div>
           <div className="single-park-info">
-            <article className="desc">
-              <h3>details</h3>
+            <article className="description">
+              <h3>Details</h3>
               <p>{description}</p>
             </article>
             <article className="info">
-              <h3>info</h3>
-              <h6>distance: {distance} miles</h6>
-              <h6>time: {time} min</h6>
+              <h3>Info</h3>
+              <h6>Distance: {distance} miles</h6>
+              <h6>Time: {time} min</h6>
               <h6>Difficulty: {difficulty}</h6>
-              <h6>{dogs ? "dogs allowed" : "no dogs allowed"}</h6>
-              <h6>{parking && "free parking"}</h6>
-              <h6>{view && "with view"}</h6>
-              <h6>{accessible && "wheelchair accessible"}</h6>
+              <h6>{dogs ? "Dogs allowed" : "No dogs allowed"}</h6>
+              <h6>{parking && "Free parking"}</h6>
+              <h6>{view && "With view"}</h6>
+              <h6>{accessible && "Wheelchair accessible"}</h6>
             </article>
           </div>
         </section>

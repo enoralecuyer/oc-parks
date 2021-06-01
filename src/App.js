@@ -4,7 +4,6 @@ import Home from "./pages/Home";
 import Parks from "./pages/Parks";
 import SinglePark from "./pages/SinglePark";
 import About from "./pages/About";
-import Blog from "./pages/Blog";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import BackToTopArrow from './components/BackToTopArrow'
@@ -17,7 +16,6 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/parks" component={Parks} />
-        <Route exact path="/blog" component={Blog} />
         <Route exact path="/about" component={About} />
         <Route exact path="/parks/:slug" component={SinglePark} />
         <Route component={Error} />
