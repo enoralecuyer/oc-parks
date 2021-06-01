@@ -58,6 +58,12 @@ h6 {
   color: var(--mainBlack);
   background-color: #af9a7d;
 }
+.empty-search {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 2rem 0;
+  padding: 1rem;
+}
 /* end of globals */
 /* Navbar */
 .navbar {
