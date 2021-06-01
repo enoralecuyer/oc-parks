@@ -15,14 +15,18 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.4;
 }
+a {
+  color: var(--mainBlack);
+  text-decoration: none;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+}
 h1 {
   font-size: 3em;
   line-height: 1;
   margin-bottom: 0.5em;
-}
-h2 {
-  font-size: 2em;
-  margin-bottom: 0.75em;
 }
 h3 {
   font-size: 1.5em;
@@ -34,17 +38,11 @@ h4 {
   line-height: 1.25;
   margin-bottom: 1.25em;
 }
-h5 {
-  font-size: 1em;
-  font-weight: bold;
-  margin-bottom: 1.5em;
-}
 h6 {
   font-size: 1em;
   font-weight: bold;
   margin-bottom: 1.5em;
 }
-
 .btn-primary {
   display: inline-block;
   text-decoration: none;
@@ -375,9 +373,42 @@ span.wave {
   position: fixed;
   bottom: 50px;
   right: 0;
-  color: var( --primaryColor);
+  color: var(--primaryColor);
   text-align: center;
   font-size: 30px;
   text-decoration: none;
 }
 /* end of back to top arrow */
+/* about */
+/* About */
+.profile {
+  height: 400px;
+  margin: 2rem 2rem 0 0;
+}
+
+.about-title {
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.about-description {
+  box-sizing: border-box;
+  margin: 0px auto;
+  padding-top: 4rem;
+  max-width: 740px;
+  margin-bottom: 6rem;
+}
+
+.about-description h3 {
+  padding: 2rem 0 0 0;
+}
+
+.about-description ul {
+  text-decoration: none;
+}
+
+.about-images {
+  display: flex;
+  justify-content: flex-start;
+}
+/* end of about */
