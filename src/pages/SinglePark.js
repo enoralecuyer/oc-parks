@@ -45,7 +45,7 @@ export default class SinglePark extends Component {
         <section className="single-park">
           <div className="single-park-images">
             {images.map((item, index) => {
-              return <img key={index} src={item} alt={name} />;
+              return <img key={index} src={item} alt={name} loading="lazy"/>;
             })}
           </div>
           <div className="single-park-info">
