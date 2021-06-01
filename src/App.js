@@ -1,17 +1,14 @@
 import React from "react";
 import "./App.css";
-
-import Error from "./pages/Error";
 import Home from "./pages/Home";
 import Parks from "./pages/Parks";
 import SinglePark from "./pages/SinglePark";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
-
-import { Route, Switch } from "react-router-dom";
-
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import BackToTopArrow from './components/BackToTopArrow'
+import { Route, Switch } from "react-router-dom";
 
 function App() {
   return (
@@ -26,6 +23,7 @@ function App() {
         <Route component={Error} />
       </Switch>
       <Footer />
+      <BackToTopArrow/>
     </>
   );
 }
