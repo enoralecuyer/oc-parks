@@ -39,8 +39,8 @@ export default function About() {
             profiles.
           </p>
           <div className="about-images">
-            <img className="profile" src={profile1} alt="profile" />
-            <img className="profile" src={profile2} alt="profile" />
+            <img src={profile1} alt="profile" />
+            <img src={profile2} alt="profile" />
           </div>
           <h3>New features for version 2:</h3>
           <ul>

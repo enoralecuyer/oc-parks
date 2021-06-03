@@ -10,7 +10,6 @@
 }
 /* globals */
 body {
-  padding-top: 66px;
   color: var(--mainBlack);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.4;
@@ -19,6 +18,10 @@ a {
   color: var(--mainBlack);
   text-decoration: none;
   font-weight: bold;
+}
+a.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 ul {
   list-style: none;
@@ -67,9 +70,6 @@ h6 {
 /* end of globals */
 /* Navbar */
 .navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   padding: 0.75rem 2rem;
   background: white;
@@ -252,8 +252,9 @@ span.wave {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-row-gap: 2rem;
-  grid-column-gap: 50px;
+  grid-row-gap: 1.5rem;
+  grid-column-gap: 2.5rem;
+  align-items: center;
 }
 .single-park-images img {
   width: 100%;
@@ -407,11 +408,12 @@ span.wave {
   flex-direction: row;
   flex-wrap: wrap;
 }
-.profile {
+.about-images img {
   height: auto;
   max-height: 300px;
   width: auto;
   max-width: 100%;
   margin: 2rem 2rem 0rem 0rem;
+  border-radius: 0.3rem;
 }
 /* end of about */
