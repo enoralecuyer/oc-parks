@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "../images/logo.png";
 import { FaAlignRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Emoji from "./Emoji";
@@ -29,6 +28,7 @@ export default class Navbar extends Component {
           </div>
           <ul
             className={this.state.isOpen ? "nav-links show-nav " : "nav-links"}
+            hide={this.state.isOpen}
           >
             <li>
               <Link to="/parks">

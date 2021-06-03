@@ -3,7 +3,7 @@ import defaultBackground from "../images/aliso_park/alisopark1.jpg";
 import Title from "../components/Title";
 import { Link } from "react-router-dom";
 import { ParkContext } from "../context";
-import Map from '../components/Map'
+import Map from "../components/Map";
 
 export default class SinglePark extends Component {
   constructor(props) {
@@ -45,7 +45,7 @@ export default class SinglePark extends Component {
         <section className="single-park">
           <div className="single-park-images">
             {images.map((item, index) => {
-              return <img key={index} src={item} alt={name} loading="lazy"/>;
+              return <img key={index} src={item} alt={name} loading="lazy" />;
             })}
           </div>
           <div className="single-park-info">
@@ -65,7 +65,7 @@ export default class SinglePark extends Component {
             </article>
           </div>
         </section>
-        <Map />
+        {/* <Map /> */}
       </>
     );
   }

@@ -1,5 +1,4 @@
 import React from "react";
-import Title from "../components/Title";
 import profile1 from "../images/about1.jpg";
 import profile2 from "../images/about2.jpg";
 
