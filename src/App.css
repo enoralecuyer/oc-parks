@@ -114,9 +114,9 @@ h6 {
     display: none;
   }
   .nav-center {
-    max-width: 1170px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
   }
   .nav-links {
     height: auto;
@@ -126,6 +126,11 @@ h6 {
   }
 
   .nav-links a {
+    margin: 0 1rem;
+    padding: 0.5rem 0;
+  }
+  .logo {
+    font-size: 1.5rem;
     margin: 0 1rem;
     padding: 0.5rem 0;
   }
@@ -357,12 +362,6 @@ span.wave {
   }
 }
 /* end of parks fitler*/
-/* logo */
-.logo {
-  height: 2.5rem;
-  width: auto;
-}
-/* end of logo */
 /* Footer */
 .footer {
   display: flex;
