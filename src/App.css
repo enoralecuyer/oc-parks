@@ -386,9 +386,9 @@ span.wave {
 /* end of back to top arrow */
 /* about */
 /* About */
-.profile {
-  height: 400px;
-  margin: 2rem 2rem 0 0;
+
+.about-section {
+  padding: 0 2rem;
 }
 
 .about-title {
@@ -414,6 +414,12 @@ span.wave {
 
 .about-images {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.profile {
+  height: 20rem;
+  width: auto;
+  margin: 2rem 2rem 0rem 0rem;
 }
 /* end of about */
