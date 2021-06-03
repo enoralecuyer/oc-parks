@@ -386,16 +386,9 @@ span.wave {
 /* end of back to top arrow */
 /* about */
 /* About */
-
 .about-section {
   padding: 0 2rem;
 }
-
-.about-title {
-  text-align: center;
-  padding-top: 4rem;
-}
-
 .about-description {
   box-sizing: border-box;
   margin: 0px auto;
@@ -403,23 +396,22 @@ span.wave {
   max-width: 740px;
   margin-bottom: 6rem;
 }
-
 .about-description h3 {
   padding: 2rem 0 0 0;
 }
-
 .about-description ul {
   text-decoration: none;
 }
-
 .about-images {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 .profile {
-  height: 20rem;
+  height: auto;
+  max-height: 300px;
   width: auto;
+  max-width: 100%;
   margin: 2rem 2rem 0rem 0rem;
 }
 /* end of about */
