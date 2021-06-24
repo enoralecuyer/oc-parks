@@ -1,6 +1,6 @@
 # SoCal Parks
 
-A collection of all the hikes in Southern California that I've done. Filter by city, length, difficulty, and also dog-friendly and more! 
+A collection of all the hikes in Southern California that I've done. Filter by city, length, difficulty, dog-friendly and more! 
 
 ## View Demo
 
