@@ -15,7 +15,6 @@ A collection of all the hikes in Southern California that I've done. Filter by c
 * [React](https://github.com/facebook/create-react-app)
 * [React-router-dom](https://www.npmjs.com/package/react-router-dom)
 * [React-icons](https://react-icons.github.io/react-icons/)
-* [Contentful](https://www.contentful.com/)
 
 ## Author
 
